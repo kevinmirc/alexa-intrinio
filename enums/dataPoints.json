@@ -1,0 +1,3226 @@
+{
+  "52 Week High": {
+    "label": "52 Week High",
+    "intrinioDataPoint": "52_week_high",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "52 Week Low": {
+    "label": "52 Week Low",
+    "intrinioDataPoint": "52_week_low",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Accounts Payable": {
+    "label": "Accounts Payable",
+    "intrinioDataPoint": "accountspayable",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accounts Payable Turnover": {
+    "label": "Accounts Payable Turnover",
+    "intrinioDataPoint": "apturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Accounts Receivable": {
+    "label": "Accounts Receivable",
+    "intrinioDataPoint": "accountsreceivable",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accounts Receivable Turnover": {
+    "label": "Accounts Receivable Turnover",
+    "intrinioDataPoint": "arturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Accrued Expenses": {
+    "label": "Accrued Expenses",
+    "intrinioDataPoint": "accruedexpenses",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accrued Interest Payable": {
+    "label": "Accrued Interest Payable",
+    "intrinioDataPoint": "accruedinterestpayable",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accrued Investment Income": {
+    "label": "Accrued Investment Income",
+    "intrinioDataPoint": "accruedinvestmentincome",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accumulated Depreciation": {
+    "label": "Accumulated Depreciation",
+    "intrinioDataPoint": "accumulateddepreciation",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Accumulated Other Comprehensive Income / (Loss)": {
+    "label": "Accumulated Other Comprehensive Income / (Loss)",
+    "intrinioDataPoint": "aoci",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Acquisitions": {
+    "label": "Acquisitions",
+    "intrinioDataPoint": "acquisitions",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Adjusted Close Price": {
+    "label": "Adjusted Close Price",
+    "intrinioDataPoint": "adj_close_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Adjusted High Price": {
+    "label": "Adjusted High Price",
+    "intrinioDataPoint": "adj_high_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Adjusted Low Price": {
+    "label": "Adjusted Low Price",
+    "intrinioDataPoint": "adj_low_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Adjusted Open Price": {
+    "label": "Adjusted Open Price",
+    "intrinioDataPoint": "adj_open_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Adjusted Volume": {
+    "label": "Adjusted Volume",
+    "intrinioDataPoint": "adj_volume",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "shares",
+    "supported": true
+  },
+  "Allowance for Loan and Lease Losses": {
+    "label": "Allowance for Loan and Lease Losses",
+    "intrinioDataPoint": "allowanceforloanandleaselosses",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Altman Z-Score": {
+    "label": "Altman Z-Score",
+    "intrinioDataPoint": "altmanzscore",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Amortization Expense": {
+    "label": "Amortization Expense",
+    "intrinioDataPoint": "amortizationexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Amortization of Deferred Policy Acquisition Costs": {
+    "label": "Amortization of Deferred Policy Acquisition Costs",
+    "intrinioDataPoint": "amortizationofdeferredpolicyacquisitioncosts",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Ask Price": {
+    "label": "Ask Price",
+    "intrinioDataPoint": "ask_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Ask Size": {
+    "label": "Ask Size",
+    "intrinioDataPoint": "ask_size",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "integer",
+    "supported": true
+  },
+  "Ask Timestamp": {
+    "label": "Ask Timestamp",
+    "intrinioDataPoint": "ask_timestamp",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "time",
+    "supported": true
+  },
+  "Last Price": {
+    "label": "Last Price",
+    "intrinioDataPoint": "last_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Last Size": {
+    "label": "Last Size",
+    "intrinioDataPoint": "last_size",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "integer",
+    "supported": true
+  },
+  "Last Timestamp": {
+    "label": "Last Timestamp",
+    "intrinioDataPoint": "last_timestamp",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "time",
+    "supported": true
+  },
+  "Asset Retirement Reserve & Litigation Obligation": {
+    "label": "Asset Retirement Reserve & Litigation Obligation",
+    "intrinioDataPoint": "assetretirementandlitigationobligation",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Asset Turnover": {
+    "label": "Asset Turnover",
+    "intrinioDataPoint": "assetturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Augmented Payout Ratio": {
+    "label": "Augmented Payout Ratio",
+    "intrinioDataPoint": "augmentedpayoutratio",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Average Daily Volume": {
+    "label": "Average Daily Volume",
+    "intrinioDataPoint": "average_daily_volume",
+    "statementCode": "current",
+    "type": "short_interest",
+    "unit": "shares",
+    "supported": true
+  },
+  "Bankers Acceptance Outstanding": {
+    "label": "Bankers Acceptance Outstanding",
+    "intrinioDataPoint": "bankersacceptances",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Basic & Diluted Earnings per Share": {
+    "label": "Basic & Diluted Earnings per Share",
+    "intrinioDataPoint": "basicdilutedeps",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Basic Earnings per Share": {
+    "label": "Basic Earnings per Share",
+    "intrinioDataPoint": "basiceps",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Beta": {
+    "label": "Beta",
+    "intrinioDataPoint": "beta",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "float",
+    "supported": true
+  },
+  "Bid Price": {
+    "label": "Bid Price",
+    "intrinioDataPoint": "bid_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Bid Size": {
+    "label": "Bid Size",
+    "intrinioDataPoint": "bid_size",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "integer",
+    "supported": true
+  },
+  "Bid Timestamp": {
+    "label": "Bid Timestamp",
+    "intrinioDataPoint": "bid_timestamp",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "time",
+    "supported": true
+  },
+  "Book Value per Share": {
+    "label": "Book Value per Share",
+    "intrinioDataPoint": "bookvaluepershare",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Business Address": {
+    "label": "Business Address",
+    "intrinioDataPoint": "business_address",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Business Phone Number": {
+    "label": "Business Phone Number",
+    "intrinioDataPoint": "business_phone_no",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Capital Expenditures (CapEx)": {
+    "label": "Capital Expenditures (CapEx)",
+    "intrinioDataPoint": "capex",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Capital Lease Obligations": {
+    "label": "Capital Lease Obligations",
+    "intrinioDataPoint": "capitalleaseobligations",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Capitalized Lease Obligations Interest Expense": {
+    "label": "Capitalized Lease Obligations Interest Expense",
+    "intrinioDataPoint": "capitalizedleaseobligationinterestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cash & Equivalents": {
+    "label": "Cash & Equivalents",
+    "intrinioDataPoint": "cashandequivalents",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cash Conversion Cycle (CCC)": {
+    "label": "Cash Conversion Cycle (CCC)",
+    "intrinioDataPoint": "ccc",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "days",
+    "supported": true
+  },
+  "Cash Dividends to Common per Share": {
+    "label": "Cash Dividends to Common per Share",
+    "intrinioDataPoint": "cashdividendspershare",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Cash Income Taxes Paid": {
+    "label": "Cash Income Taxes Paid",
+    "intrinioDataPoint": "cashincometaxespaid",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cash Interest Paid": {
+    "label": "Cash Interest Paid",
+    "intrinioDataPoint": "cashinterestpaid",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cash Interest Received": {
+    "label": "Cash Interest Received",
+    "intrinioDataPoint": "cashinterestreceived",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cash Return on Invested Capital (CROIC)": {
+    "label": "Cash Return on Invested Capital (CROIC)",
+    "intrinioDataPoint": "croic",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Change in Price": {
+    "label": "Change in Price",
+    "intrinioDataPoint": "change",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Changes in Operating Assets and Liabilities, net": {
+    "label": "Changes in Operating Assets and Liabilities, net",
+    "intrinioDataPoint": "increasedecreaseinoperatingcapital",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Chief Executive Officer (CEO)": {
+    "label": "Chief Executive Officer (CEO)",
+    "intrinioDataPoint": "ceo",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Claims and Claim Expense": {
+    "label": "Claims and Claim Expense",
+    "intrinioDataPoint": "claimsandclaimexpenses",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Close Price": {
+    "label": "Close Price",
+    "intrinioDataPoint": "close_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Commitments & Contingencies": {
+    "label": "Commitments & Contingencies",
+    "intrinioDataPoint": "commitmentsandcontingencies",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Common Equity to Total Capital": {
+    "label": "Common Equity to Total Capital",
+    "intrinioDataPoint": "commontocap",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Common Stock": {
+    "label": "Common Stock",
+    "intrinioDataPoint": "commonequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Company Legal Name": {
+    "label": "Company Legal Name",
+    "intrinioDataPoint": "legal_name",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Company Name": {
+    "label": "Company Name",
+    "intrinioDataPoint": "name",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Company Website": {
+    "label": "Company Website",
+    "intrinioDataPoint": "company_url",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Compound Leverage Factor": {
+    "label": "Compound Leverage Factor",
+    "intrinioDataPoint": "compoundleveragefactor",
+    "statementCode": "calculations",
+    "type": "leverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Consolidated Net Income / (Loss)": {
+    "label": "Consolidated Net Income / (Loss)",
+    "intrinioDataPoint": "netincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Cost of Revenue to Revenue": {
+    "label": "Cost of Revenue to Revenue",
+    "intrinioDataPoint": "costofrevtorevenue",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Country": {
+    "label": "Country",
+    "intrinioDataPoint": "country",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Current and Future Benefits": {
+    "label": "Current and Future Benefits",
+    "intrinioDataPoint": "currentandfuturebenefits",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Current Deferred & Payable Income Tax Liabilities": {
+    "label": "Current Deferred & Payable Income Tax Liabilities",
+    "intrinioDataPoint": "currentdeferredtaxliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Current Deferred & Refundable Income Taxes": {
+    "label": "Current Deferred & Refundable Income Taxes",
+    "intrinioDataPoint": "currentdeferredtaxassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Current Deferred Revenue": {
+    "label": "Current Deferred Revenue",
+    "intrinioDataPoint": "currentdeferredrevenue",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Current Employee Benefit Liabilities": {
+    "label": "Current Employee Benefit Liabilities",
+    "intrinioDataPoint": "currentemployeebenefitliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Current Ratio": {
+    "label": "Current Ratio",
+    "intrinioDataPoint": "currentratio",
+    "statementCode": "calculations",
+    "type": "liquidity",
+    "unit": "float",
+    "supported": true
+  },
+  "Current Year Forecasted Earnings Yield": {
+    "label": "Current Year Forecasted Earnings Yield",
+    "intrinioDataPoint": "currentyearearningsyield",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Customer and Other Receivables": {
+    "label": "Customer and Other Receivables",
+    "intrinioDataPoint": "customerandotherreceivables",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Customer Deposits": {
+    "label": "Customer Deposits",
+    "intrinioDataPoint": "customerdeposits",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Days Inventory Outstanding (DIO)": {
+    "label": "Days Inventory Outstanding (DIO)",
+    "intrinioDataPoint": "dio",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "days",
+    "supported": true
+  },
+  "Days Payable Outstanding (DPO)": {
+    "label": "Days Payable Outstanding (DPO)",
+    "intrinioDataPoint": "dpo",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "days",
+    "supported": true
+  },
+  "Days Sales Outstanding (DSO)": {
+    "label": "Days Sales Outstanding (DSO)",
+    "intrinioDataPoint": "dso",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "days",
+    "supported": true
+  },
+  "Days to Cover": {
+    "label": "Days to Cover",
+    "intrinioDataPoint": "days_to_cover",
+    "statementCode": "current",
+    "type": "short_interest",
+    "unit": "days",
+    "supported": true
+  },
+  "Debt to Equity": {
+    "label": "Debt to Equity",
+    "intrinioDataPoint": "debttoequity",
+    "statementCode": "calculations",
+    "type": "leverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Debt to NOPAT": {
+    "label": "Debt to NOPAT",
+    "intrinioDataPoint": "debttonopat",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Debt to Total Capital": {
+    "label": "Debt to Total Capital",
+    "intrinioDataPoint": "debttototalcapital",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Debt-free Net Working Capital (DFNWC)": {
+    "label": "Debt-free Net Working Capital (DFNWC)",
+    "intrinioDataPoint": "dfnwc",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Debt-free Net Working Capital to Revenue": {
+    "label": "Debt-free Net Working Capital to Revenue",
+    "intrinioDataPoint": "dfnwctorev",
+    "statementCode": "calculations",
+    "type": "liquidity",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Debt-free, Cash-free Net Working Capital (DFCFNWC)": {
+    "label": "Debt-free, Cash-free Net Working Capital (DFCFNWC)",
+    "intrinioDataPoint": "dfcfnwc",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Debt-free, Cash-free Net Working Capital to Revenue": {
+    "label": "Debt-free, Cash-free Net Working Capital to Revenue",
+    "intrinioDataPoint": "dfcfnwctorev",
+    "statementCode": "calculations",
+    "type": "liquidity",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Deferred Acquisition Cost": {
+    "label": "Deferred Acquisition Cost",
+    "intrinioDataPoint": "deferredacquisitioncost",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Depletion Expense": {
+    "label": "Depletion Expense",
+    "intrinioDataPoint": "depletionexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Deposits and Money Market Investments Interest Income": {
+    "label": "Deposits and Money Market Investments Interest Income",
+    "intrinioDataPoint": "depositsinterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Deposits Interest Expense": {
+    "label": "Deposits Interest Expense",
+    "intrinioDataPoint": "depositsinterestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Depreciation Expense": {
+    "label": "Depreciation Expense",
+    "intrinioDataPoint": "depreciationexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Diluted Earnings per Share": {
+    "label": "Diluted Earnings per Share",
+    "intrinioDataPoint": "dilutedeps",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Divestitures": {
+    "label": "Divestitures",
+    "intrinioDataPoint": "divestitures",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Dividend Ex Date": {
+    "label": "Dividend Ex Date",
+    "intrinioDataPoint": "dividend_ex_date",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "string",
+    "supported": true
+  },
+  "Dividend Pay Date": {
+    "label": "Dividend Pay Date",
+    "intrinioDataPoint": "dividend_pay_date",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "string",
+    "supported": true
+  },
+  "Dividend Payout Ratio": {
+    "label": "Dividend Payout Ratio",
+    "intrinioDataPoint": "divpayoutratio",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Dividend per Share": {
+    "label": "Dividend per Share",
+    "intrinioDataPoint": "dividend",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Dividend Yield": {
+    "label": "Dividend Yield",
+    "intrinioDataPoint": "dividendyield",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Dividends Payable": {
+    "label": "Dividends Payable",
+    "intrinioDataPoint": "dividendspayable",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Earnings before Interest and Taxes (EBIT)": {
+    "label": "Earnings before Interest and Taxes (EBIT)",
+    "intrinioDataPoint": "ebit",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Earnings before Interest, Taxes, Depreciation and Amortization (EBITDA)": {
+    "label": "Earnings before Interest, Taxes, Depreciation and Amortization (EBITDA)",
+    "intrinioDataPoint": "ebitda",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Earnings Yield": {
+    "label": "Earnings Yield",
+    "intrinioDataPoint": "earningsyield",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBIT Growth": {
+    "label": "EBIT Growth",
+    "intrinioDataPoint": "ebitgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBIT Less CapEx to Interest Expense": {
+    "label": "EBIT Less CapEx to Interest Expense",
+    "intrinioDataPoint": "ebitlesscapextointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "EBIT Margin": {
+    "label": "EBIT Margin",
+    "intrinioDataPoint": "ebitmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBIT Q/Q Growth": {
+    "label": "EBIT Q/Q Growth",
+    "intrinioDataPoint": "ebitqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBIT to Interest Expense": {
+    "label": "EBIT to Interest Expense",
+    "intrinioDataPoint": "ebittointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "EBITDA Growth": {
+    "label": "EBITDA Growth",
+    "intrinioDataPoint": "ebitdagrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBITDA Margin": {
+    "label": "EBITDA Margin",
+    "intrinioDataPoint": "ebitdamargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EBITDA Q/Q Growth": {
+    "label": "EBITDA Q/Q Growth",
+    "intrinioDataPoint": "ebitdaqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Effect of Exchange Rate Changes": {
+    "label": "Effect of Exchange Rate Changes",
+    "intrinioDataPoint": "effectofexchangeratechanges",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Effective Tax Rate": {
+    "label": "Effective Tax Rate",
+    "intrinioDataPoint": "efftaxrate",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Employee Benefit Assets": {
+    "label": "Employee Benefit Assets",
+    "intrinioDataPoint": "employeebenefitassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Employees": {
+    "label": "Employees",
+    "intrinioDataPoint": "employees",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "integer",
+    "supported": true
+  },
+  "Enterprise Value (EV)": {
+    "label": "Enterprise Value (EV)",
+    "intrinioDataPoint": "enterprisevalue",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "usd",
+    "supported": true
+  },
+  "Enterprise Value to Current Year Forecasted Revenue": {
+    "label": "Enterprise Value to Current Year Forecasted Revenue",
+    "intrinioDataPoint": "evtonextyearrevenue",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to EBIT (EV/EBIT)": {
+    "label": "Enterprise Value to EBIT (EV/EBIT)",
+    "intrinioDataPoint": "evtoebit",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to EBITDA (EV/EBITDA)": {
+    "label": "Enterprise Value to EBITDA (EV/EBITDA)",
+    "intrinioDataPoint": "evtoebitda",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to Free Cash Flow (EV/FCFF)": {
+    "label": "Enterprise Value to Free Cash Flow (EV/FCFF)",
+    "intrinioDataPoint": "evtofcff",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to Invested Capital (EV/IC)": {
+    "label": "Enterprise Value to Invested Capital (EV/IC)",
+    "intrinioDataPoint": "evtoinvestedcapital",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to NOPAT (EV/NOPAT)": {
+    "label": "Enterprise Value to NOPAT (EV/NOPAT)",
+    "intrinioDataPoint": "evtonopat",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to Operating Cash Flow (EV/OCF)": {
+    "label": "Enterprise Value to Operating Cash Flow (EV/OCF)",
+    "intrinioDataPoint": "evtoocf",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Enterprise Value to Revenue (EV/Rev)": {
+    "label": "Enterprise Value to Revenue (EV/Rev)",
+    "intrinioDataPoint": "evtorevenue",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "EPS Growth": {
+    "label": "EPS Growth",
+    "intrinioDataPoint": "epsgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "EPS Q/Q Growth": {
+    "label": "EPS Q/Q Growth",
+    "intrinioDataPoint": "epsqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Ex Dividend": {
+    "label": "Ex Dividend",
+    "intrinioDataPoint": "ex_dividend",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "float",
+    "supported": true
+  },
+  "Exchange Financial Status": {
+    "label": "Exchange Financial Status",
+    "intrinioDataPoint": "exchange_status",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "boolean",
+    "supported": true
+  },
+  "Exploration Expense": {
+    "label": "Exploration Expense",
+    "intrinioDataPoint": "explorationexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Extraordinary Income / (Loss), net": {
+    "label": "Extraordinary Income / (Loss), net",
+    "intrinioDataPoint": "extraordinaryincome",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Federal Funds Purchased and Securities Sold": {
+    "label": "Federal Funds Purchased and Securities Sold",
+    "intrinioDataPoint": "fedfundspurchased",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Federal Funds Purchased and Securities Sold Interest Expense": {
+    "label": "Federal Funds Purchased and Securities Sold Interest Expense",
+    "intrinioDataPoint": "fedfundsandrepointerestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Federal Funds Sold": {
+    "label": "Federal Funds Sold",
+    "intrinioDataPoint": "fedfundssold",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Federal Funds Sold and Securities Borrowed Interest Income": {
+    "label": "Federal Funds Sold and Securities Borrowed Interest Income",
+    "intrinioDataPoint": "fedfundsandrepointerestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Financial Leverage": {
+    "label": "Financial Leverage",
+    "intrinioDataPoint": "finleverage",
+    "statementCode": "calculations",
+    "type": "leverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Five Year Average Dividend Yield": {
+    "label": "Five Year Average Dividend Yield",
+    "intrinioDataPoint": "five_yr_ave_dividend_yield",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Five Year Monthly Beta": {
+    "label": "Five Year Monthly Beta",
+    "intrinioDataPoint": "five_yr_monthly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Five Year Weekly Beta": {
+    "label": "Five Year Weekly Beta",
+    "intrinioDataPoint": "five_yr_weekly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Fixed Asset Turnover": {
+    "label": "Fixed Asset Turnover",
+    "intrinioDataPoint": "faturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Forward Dividend Rate": {
+    "label": "Forward Dividend Rate",
+    "intrinioDataPoint": "forward_dividend_rate",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Forward Dividend Yield": {
+    "label": "Forward Dividend Yield",
+    "intrinioDataPoint": "forward_dividend_yield",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Free Cash Flow Firm Growth": {
+    "label": "Free Cash Flow Firm Growth",
+    "intrinioDataPoint": "fcffgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Free Cash Flow Firm Q/Q Growth": {
+    "label": "Free Cash Flow Firm Q/Q Growth",
+    "intrinioDataPoint": "fcffqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Free Cash Flow to Firm (FCFF)": {
+    "label": "Free Cash Flow to Firm (FCFF)",
+    "intrinioDataPoint": "freecashflow",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Free Cash Flow to Firm to Interest Expense": {
+    "label": "Free Cash Flow to Firm to Interest Expense",
+    "intrinioDataPoint": "fcfftointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Future Policy Benefits": {
+    "label": "Future Policy Benefits",
+    "intrinioDataPoint": "futurepolicybenefits",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Goodwill": {
+    "label": "Goodwill",
+    "intrinioDataPoint": "goodwill",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Gross Margin": {
+    "label": "Gross Margin",
+    "intrinioDataPoint": "grossmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "High Price": {
+    "label": "High Price",
+    "intrinioDataPoint": "high_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Impairment Charge": {
+    "label": "Impairment Charge",
+    "intrinioDataPoint": "impairmentexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Income Tax Expense": {
+    "label": "Income Tax Expense",
+    "intrinioDataPoint": "incometaxexpense",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Incorporated Country": {
+    "label": "Incorporated Country",
+    "intrinioDataPoint": "inc_country",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Incorporated State": {
+    "label": "Incorporated State",
+    "intrinioDataPoint": "inc_state",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Increase / (Decrease) in Invested Capital": {
+    "label": "Increase / (Decrease) in Invested Capital",
+    "intrinioDataPoint": "investedcapitalincreasedecrease",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Industry Category": {
+    "label": "Industry Category",
+    "intrinioDataPoint": "industry_category",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Industry Group": {
+    "label": "Industry Group",
+    "intrinioDataPoint": "industry_group",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Insurance Policy Acquisition Costs": {
+    "label": "Insurance Policy Acquisition Costs",
+    "intrinioDataPoint": "policyacquisitioncosts",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Intangible Assets": {
+    "label": "Intangible Assets",
+    "intrinioDataPoint": "intangibleassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Interest & Investment Income": {
+    "label": "Interest & Investment Income",
+    "intrinioDataPoint": "totalinterestincome",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Interest Bearing Deposits": {
+    "label": "Interest Bearing Deposits",
+    "intrinioDataPoint": "interestbearingdeposits",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Interest Bearing Deposits at Other Banks": {
+    "label": "Interest Bearing Deposits at Other Banks",
+    "intrinioDataPoint": "interestbearingdepositsatotherbanks",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Interest Burden Percent": {
+    "label": "Interest Burden Percent",
+    "intrinioDataPoint": "interestburdenpct",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Interest Expense": {
+    "label": "Interest Expense",
+    "intrinioDataPoint": "totalinterestexpense",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Inventories, net": {
+    "label": "Inventories, net",
+    "intrinioDataPoint": "netinventory",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Inventory Turnover": {
+    "label": "Inventory Turnover",
+    "intrinioDataPoint": "invturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Invested Capital": {
+    "label": "Invested Capital",
+    "intrinioDataPoint": "investedcapital",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Invested Capital Growth": {
+    "label": "Invested Capital Growth",
+    "intrinioDataPoint": "investedcapitalgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Invested Capital Q/Q Growth": {
+    "label": "Invested Capital Q/Q Growth",
+    "intrinioDataPoint": "investedcapitalqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Invested Capital Turnover": {
+    "label": "Invested Capital Turnover",
+    "intrinioDataPoint": "investedcapitalturnover",
+    "statementCode": "calculations",
+    "type": "efficiency",
+    "unit": "float",
+    "supported": true
+  },
+  "Investment Banking Income": {
+    "label": "Investment Banking Income",
+    "intrinioDataPoint": "investmentbankingincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Investment Securities Interest Income": {
+    "label": "Investment Securities Interest Income",
+    "intrinioDataPoint": "investmentsecuritiesinterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Issuance of Common Equity": {
+    "label": "Issuance of Common Equity",
+    "intrinioDataPoint": "issuanceofcommonequity",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Issuance of Debt": {
+    "label": "Issuance of Debt",
+    "intrinioDataPoint": "issuanceofdebt",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Issuance of Preferred Equity": {
+    "label": "Issuance of Preferred Equity",
+    "intrinioDataPoint": "issuanceofpreferredequity",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Leverage Ratio": {
+    "label": "Leverage Ratio",
+    "intrinioDataPoint": "leverageratio",
+    "statementCode": "calculations",
+    "type": "leverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Listing Exchange": {
+    "label": "Listing Exchange",
+    "intrinioDataPoint": "listing_exchange",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Loans and Leases": {
+    "label": "Loans and Leases",
+    "intrinioDataPoint": "loansandleases",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Loans and Leases Interest Income": {
+    "label": "Loans and Leases Interest Income",
+    "intrinioDataPoint": "loansandleaseinterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Loans and Leases, Net of Allowance": {
+    "label": "Loans and Leases, Net of Allowance",
+    "intrinioDataPoint": "netloansandleases",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Loans Held for Sale": {
+    "label": "Loans Held for Sale",
+    "intrinioDataPoint": "loansheldforsale",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Loans Held for Sale, Net": {
+    "label": "Loans Held for Sale, Net",
+    "intrinioDataPoint": "loansheldforsalenet",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Long Description": {
+    "label": "Long Description",
+    "intrinioDataPoint": "long_description",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Long-Term Debt": {
+    "label": "Long-Term Debt",
+    "intrinioDataPoint": "longtermdebt",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Long-Term Debt Interest Expense": {
+    "label": "Long-Term Debt Interest Expense",
+    "intrinioDataPoint": "longtermdebtinterestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Long-Term Debt to EBITDA": {
+    "label": "Long-Term Debt to EBITDA",
+    "intrinioDataPoint": "ltdebttoebitda",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Long-Term Debt to Equity": {
+    "label": "Long-Term Debt to Equity",
+    "intrinioDataPoint": "ltdebttoequity",
+    "statementCode": "calculations",
+    "type": "leverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Long-Term Debt to NOPAT": {
+    "label": "Long-Term Debt to NOPAT",
+    "intrinioDataPoint": "ltdebttonopat",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Long-Term Debt to Total Capital": {
+    "label": "Long-Term Debt to Total Capital",
+    "intrinioDataPoint": "ltdebttocap",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Long-Term Investments": {
+    "label": "Long-Term Investments",
+    "intrinioDataPoint": "longterminvestments",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Low Price": {
+    "label": "Low Price",
+    "intrinioDataPoint": "low_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Mailing Address": {
+    "label": "Mailing Address",
+    "intrinioDataPoint": "mailing_address",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Market Capitalization": {
+    "label": "Market Capitalization",
+    "intrinioDataPoint": "marketcap",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "usd",
+    "supported": true
+  },
+  "Market Category": {
+    "label": "Market Category",
+    "intrinioDataPoint": "market_category",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Marketing Expense": {
+    "label": "Marketing Expense",
+    "intrinioDataPoint": "marketingexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Mortgage Servicing Rights": {
+    "label": "Mortgage Servicing Rights",
+    "intrinioDataPoint": "mortgageservicingrights",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Continuing Financing Activities": {
+    "label": "Net Cash From Continuing Financing Activities",
+    "intrinioDataPoint": "netcashfromcontinuingfinancingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Continuing Investing Activities": {
+    "label": "Net Cash From Continuing Investing Activities",
+    "intrinioDataPoint": "netcashfromcontinuinginvestingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Continuing Operating Activities": {
+    "label": "Net Cash From Continuing Operating Activities",
+    "intrinioDataPoint": "netcashfromcontinuingoperatingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Discontinued Financing Activities": {
+    "label": "Net Cash From Discontinued Financing Activities",
+    "intrinioDataPoint": "netcashfromdiscontinuedfinancingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Discontinued Investing Activities": {
+    "label": "Net Cash From Discontinued Investing Activities",
+    "intrinioDataPoint": "netcashfromdiscontinuedinvestingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Discontinued Operating Activities": {
+    "label": "Net Cash From Discontinued Operating Activities",
+    "intrinioDataPoint": "netcashfromdiscontinuedoperatingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Financing Activities": {
+    "label": "Net Cash From Financing Activities",
+    "intrinioDataPoint": "netcashfromfinancingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Investing Activities": {
+    "label": "Net Cash From Investing Activities",
+    "intrinioDataPoint": "netcashfrominvestingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Cash From Operating Activities": {
+    "label": "Net Cash From Operating Activities",
+    "intrinioDataPoint": "netcashfromoperatingactivities",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Change in Cash & Equivalents": {
+    "label": "Net Change in Cash & Equivalents",
+    "intrinioDataPoint": "netchangeincash",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Change in Deposits": {
+    "label": "Net Change in Deposits",
+    "intrinioDataPoint": "netchangeindeposits",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Debt": {
+    "label": "Net Debt",
+    "intrinioDataPoint": "netdebt",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Debt to EBITDA": {
+    "label": "Net Debt to EBITDA",
+    "intrinioDataPoint": "netdebttoebitda",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Net Debt to NOPAT": {
+    "label": "Net Debt to NOPAT",
+    "intrinioDataPoint": "netdebttonopat",
+    "statementCode": "calculations",
+    "type": "solvency",
+    "unit": "float",
+    "supported": true
+  },
+  "Net Income / (Loss) Attributable to Common Shareholders": {
+    "label": "Net Income / (Loss) Attributable to Common Shareholders",
+    "intrinioDataPoint": "netincometocommon",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Income / (Loss) Attributable to Noncontrolling Interest": {
+    "label": "Net Income / (Loss) Attributable to Noncontrolling Interest",
+    "intrinioDataPoint": "netincometononcontrollinginterest",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Income / (Loss) Continuing Operations": {
+    "label": "Net Income / (Loss) Continuing Operations",
+    "intrinioDataPoint": "netincomecontinuing",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Income / (Loss) Discontinued Operations": {
+    "label": "Net Income / (Loss) Discontinued Operations",
+    "intrinioDataPoint": "netincomediscontinued",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Income Growth": {
+    "label": "Net Income Growth",
+    "intrinioDataPoint": "netincomegrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Net Income Q/Q Growth": {
+    "label": "Net Income Q/Q Growth",
+    "intrinioDataPoint": "netincomeqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Net Increase in Fed Funds Sold": {
+    "label": "Net Increase in Fed Funds Sold",
+    "intrinioDataPoint": "netincreaseinfedfundssold",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Interest Income / (Expense)": {
+    "label": "Net Interest Income / (Expense)",
+    "intrinioDataPoint": "netinterestincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Nonoperating Expense (NNE)": {
+    "label": "Net Nonoperating Expense (NNE)",
+    "intrinioDataPoint": "netnonopex",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Nonoperating Expense Percent (NNEP)": {
+    "label": "Net Nonoperating Expense Percent (NNEP)",
+    "intrinioDataPoint": "nnep",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Net Nonoperating Obligations (NNO)": {
+    "label": "Net Nonoperating Obligations (NNO)",
+    "intrinioDataPoint": "netnonopobligations",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Occupancy & Equipment Expense": {
+    "label": "Net Occupancy & Equipment Expense",
+    "intrinioDataPoint": "netoccupancyequipmentexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Operating Profit after Tax (NOPAT)": {
+    "label": "Net Operating Profit after Tax (NOPAT)",
+    "intrinioDataPoint": "nopat",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Realized & Unrealized Capital Gains on Investments": {
+    "label": "Net Realized & Unrealized Capital Gains on Investments",
+    "intrinioDataPoint": "netrealizedcapitalgains",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Working Capital (NWC)": {
+    "label": "Net Working Capital (NWC)",
+    "intrinioDataPoint": "nwc",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Net Working Capital to Revenue": {
+    "label": "Net Working Capital to Revenue",
+    "intrinioDataPoint": "nwctorev",
+    "statementCode": "calculations",
+    "type": "liquidity",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Next Year Forecasted Earnings Yield": {
+    "label": "Next Year Forecasted Earnings Yield",
+    "intrinioDataPoint": "nextyearearningsyield",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Non-Cash Adjustments To Reconcile Net Income": {
+    "label": "Non-Cash Adjustments To Reconcile Net Income",
+    "intrinioDataPoint": "noncashadjustmentstonetincome",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Non-Interest Bearing Deposits": {
+    "label": "Non-Interest Bearing Deposits",
+    "intrinioDataPoint": "noninterestbearingdeposits",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncontrolling Interest": {
+    "label": "Noncontrolling Interest",
+    "intrinioDataPoint": "noncontrollinginterests",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncontrolling Interest Sharing Ratio": {
+    "label": "Noncontrolling Interest Sharing Ratio",
+    "intrinioDataPoint": "noncontrollinginterestsharingratio",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Noncontrolling Interests to Total Capital": {
+    "label": "Noncontrolling Interests to Total Capital",
+    "intrinioDataPoint": "noncontrolinttocap",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Noncurrent Deferred & Payable Income Tax Liabilities": {
+    "label": "Noncurrent Deferred & Payable Income Tax Liabilities",
+    "intrinioDataPoint": "noncurrentdeferredtaxliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncurrent Deferred & Refundable Income Taxes": {
+    "label": "Noncurrent Deferred & Refundable Income Taxes",
+    "intrinioDataPoint": "noncurrentdeferredtaxassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncurrent Deferred Revenue": {
+    "label": "Noncurrent Deferred Revenue",
+    "intrinioDataPoint": "noncurrentdeferredrevenue",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncurrent Employee Benefit Liabilities": {
+    "label": "Noncurrent Employee Benefit Liabilities",
+    "intrinioDataPoint": "noncurrentemployeebenefitliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Noncurrent Note & Lease Receivables": {
+    "label": "Noncurrent Note & Lease Receivables",
+    "intrinioDataPoint": "noncurrentnotereceivables",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Nonoperating Income / (Expense), net": {
+    "label": "Nonoperating Income / (Expense), net",
+    "intrinioDataPoint": "nonoperatingincome",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "NOPAT Growth": {
+    "label": "NOPAT Growth",
+    "intrinioDataPoint": "nopatgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "NOPAT Less CapEx to Interest Expense": {
+    "label": "NOPAT Less CapEx to Interest Expense",
+    "intrinioDataPoint": "nopatlesscapextointex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "NOPAT Margin": {
+    "label": "NOPAT Margin",
+    "intrinioDataPoint": "nopatmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "NOPAT Q/Q Growth": {
+    "label": "NOPAT Q/Q Growth",
+    "intrinioDataPoint": "nopatqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "NOPAT to Interest Expense": {
+    "label": "NOPAT to Interest Expense",
+    "intrinioDataPoint": "nopattointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Normalized Net Operating Profit after Tax (NOPAT)": {
+    "label": "Normalized Net Operating Profit after Tax (NOPAT)",
+    "intrinioDataPoint": "normalizednopat",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Normalized NOPAT Margin": {
+    "label": "Normalized NOPAT Margin",
+    "intrinioDataPoint": "normalizednopatmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Note & Lease Receivable": {
+    "label": "Note & Lease Receivable",
+    "intrinioDataPoint": "notereceivable",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "One Year Monthly Beta": {
+    "label": "One Year Monthly Beta",
+    "intrinioDataPoint": "one_yr_monthly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "One Year Weekly Beta": {
+    "label": "One Year Weekly Beta",
+    "intrinioDataPoint": "one_yr_weekly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Open Price": {
+    "label": "Open Price",
+    "intrinioDataPoint": "open_price",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Operating Cash Flow Growth": {
+    "label": "Operating Cash Flow Growth",
+    "intrinioDataPoint": "ocfgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Cash Flow Less CapEx to Interest Expense": {
+    "label": "Operating Cash Flow Less CapEx to Interest Expense",
+    "intrinioDataPoint": "ocflesscapextointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Operating Cash Flow Q/Q Growth": {
+    "label": "Operating Cash Flow Q/Q Growth",
+    "intrinioDataPoint": "ocfqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Cash Flow to CapEx": {
+    "label": "Operating Cash Flow to CapEx",
+    "intrinioDataPoint": "ocftocapex",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Cash Flow to Interest Expense": {
+    "label": "Operating Cash Flow to Interest Expense",
+    "intrinioDataPoint": "ocftointerestex",
+    "statementCode": "calculations",
+    "type": "coverage",
+    "unit": "float",
+    "supported": true
+  },
+  "Operating Cost of Revenue": {
+    "label": "Operating Cost of Revenue",
+    "intrinioDataPoint": "operatingcostofrevenue",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Operating Expenses to Revenue": {
+    "label": "Operating Expenses to Revenue",
+    "intrinioDataPoint": "opextorevenue",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Margin": {
+    "label": "Operating Margin",
+    "intrinioDataPoint": "operatingmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Return on Assets (OROA)": {
+    "label": "Operating Return on Assets (OROA)",
+    "intrinioDataPoint": "oroa",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Operating Revenue": {
+    "label": "Operating Revenue",
+    "intrinioDataPoint": "operatingrevenue",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Adjustments to Consolidated Net Income / (Loss)": {
+    "label": "Other Adjustments to Consolidated Net Income / (Loss)",
+    "intrinioDataPoint": "otheradjustmentstoconsolidatednetincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Adjustments to Net Income / (Loss) Attributable to Common Shareholders)": {
+    "label": "Other Adjustments to Net Income / (Loss) Attributable to Common Shareholders)",
+    "intrinioDataPoint": "otheradjustmentstonetincometocommon",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Assets": {
+    "label": "Other Assets",
+    "intrinioDataPoint": "otherassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Cost of Revenue": {
+    "label": "Other Cost of Revenue",
+    "intrinioDataPoint": "othercostofrevenue",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Current Assets": {
+    "label": "Other Current Assets",
+    "intrinioDataPoint": "othercurrentassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Current Liabilities": {
+    "label": "Other Current Liabilities",
+    "intrinioDataPoint": "othercurrentliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Current Nonoperating Assets": {
+    "label": "Other Current Nonoperating Assets",
+    "intrinioDataPoint": "othercurrentnonoperatingassets",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Current Nonoperating Liabilities": {
+    "label": "Other Current Nonoperating Liabilities",
+    "intrinioDataPoint": "othercurrentnonoperatingliabilities",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Equity Adjustments": {
+    "label": "Other Equity Adjustments",
+    "intrinioDataPoint": "otherequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Financing Activities, net": {
+    "label": "Other Financing Activities, net",
+    "intrinioDataPoint": "otherfinancingactivitiesnet",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Gains / (Losses), net": {
+    "label": "Other Gains / (Losses), net",
+    "intrinioDataPoint": "othergains",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Income / (Expense), net": {
+    "label": "Other Income / (Expense), net",
+    "intrinioDataPoint": "otherincome",
+    "statementCode": "income_statement",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Interest Expense": {
+    "label": "Other Interest Expense",
+    "intrinioDataPoint": "otherinterestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Interest Income": {
+    "label": "Other Interest Income",
+    "intrinioDataPoint": "otherinterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Investing Activities, net": {
+    "label": "Other Investing Activities, net",
+    "intrinioDataPoint": "otherinvestingactivitiesnet",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Long-Term Liabilities": {
+    "label": "Other Long-Term Liabilities",
+    "intrinioDataPoint": "otherlongtermliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Net Changes in Cash": {
+    "label": "Other Net Changes in Cash",
+    "intrinioDataPoint": "othernetchangesincash",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Non-Interest Income": {
+    "label": "Other Non-Interest Income",
+    "intrinioDataPoint": "othernoninterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Noncurrent Nonoperating Assets": {
+    "label": "Other Noncurrent Nonoperating Assets",
+    "intrinioDataPoint": "othernoncurrentnonoperatingassets",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Noncurrent Nonoperating Liabilities": {
+    "label": "Other Noncurrent Nonoperating Liabilities",
+    "intrinioDataPoint": "othernoncurrentnonoperatingliabilities",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Noncurrent Operating Assets": {
+    "label": "Other Noncurrent Operating Assets",
+    "intrinioDataPoint": "othernoncurrentassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Noncurrent Operating Liabilities": {
+    "label": "Other Noncurrent Operating Liabilities",
+    "intrinioDataPoint": "othernoncurrentliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Operating Expenses / (Income)": {
+    "label": "Other Operating Expenses / (Income)",
+    "intrinioDataPoint": "otheroperatingexpenses",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Revenue": {
+    "label": "Other Revenue",
+    "intrinioDataPoint": "otherrevenue",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Service Charges": {
+    "label": "Other Service Charges",
+    "intrinioDataPoint": "otherservicechargeincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Short-Term Payables": {
+    "label": "Other Short-Term Payables",
+    "intrinioDataPoint": "othershorttermpayables",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Special Charges / (Income)": {
+    "label": "Other Special Charges / (Income)",
+    "intrinioDataPoint": "otherspecialcharges",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Other Taxes Payable": {
+    "label": "Other Taxes Payable",
+    "intrinioDataPoint": "othertaxespayable",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Participating Policy Holder Equity": {
+    "label": "Participating Policy Holder Equity",
+    "intrinioDataPoint": "participatingpolicyholderequity",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Payment of Dividends": {
+    "label": "Payment of Dividends",
+    "intrinioDataPoint": "paymentofdividends",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Percent Change in Price": {
+    "label": "Percent Change in Price",
+    "intrinioDataPoint": "percent_change",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Plant, Property & Equipment, gross": {
+    "label": "Plant, Property & Equipment, gross",
+    "intrinioDataPoint": "grossppe",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Plant, Property, & Equipment, net": {
+    "label": "Plant, Property, & Equipment, net",
+    "intrinioDataPoint": "netppe",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Policy Holder Funds": {
+    "label": "Policy Holder Funds",
+    "intrinioDataPoint": "policyholderfunds",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Pre Tax Income Margin": {
+    "label": "Pre Tax Income Margin",
+    "intrinioDataPoint": "pretaxincomemargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Preferred Equity to Total Capital": {
+    "label": "Preferred Equity to Total Capital",
+    "intrinioDataPoint": "preferredtocap",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Preferred Stock": {
+    "label": "Preferred Stock",
+    "intrinioDataPoint": "totalpreferredequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Preferred Stock Dividends Declared": {
+    "label": "Preferred Stock Dividends Declared",
+    "intrinioDataPoint": "preferreddividends",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Premises and Equipment, Net": {
+    "label": "Premises and Equipment, Net",
+    "intrinioDataPoint": "netpremisesandequipment",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Premiums Earned": {
+    "label": "Premiums Earned",
+    "intrinioDataPoint": "premiumsearned",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Prepaid Expenses": {
+    "label": "Prepaid Expenses",
+    "intrinioDataPoint": "prepaidexpenses",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Price Date": {
+    "label": "Price Date",
+    "intrinioDataPoint": "price_date",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "date",
+    "supported": true
+  },
+  "Price Time": {
+    "label": "Price Time",
+    "intrinioDataPoint": "price_time",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "time",
+    "supported": true
+  },
+  "Price to Book Value (P/BV)": {
+    "label": "Price to Book Value (P/BV)",
+    "intrinioDataPoint": "pricetobook",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Current Year Forecasted Earnings": {
+    "label": "Price to Current Year Forecasted Earnings",
+    "intrinioDataPoint": "pricetocurrentyearearnings",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Current Year Forecasted Revenue": {
+    "label": "Price to Current Year Forecasted Revenue",
+    "intrinioDataPoint": "pricetocurrentyearrevenue",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Earnings (P/E)": {
+    "label": "Price to Earnings (P/E)",
+    "intrinioDataPoint": "pricetoearnings",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Next Year Forecasted Earnings": {
+    "label": "Price to Next Year Forecasted Earnings",
+    "intrinioDataPoint": "pricetonextyearearnings",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Next Year Forecasted Revenue": {
+    "label": "Price to Next Year Forecasted Revenue",
+    "intrinioDataPoint": "pricetonextyearrevenue",
+    "statementCode": "current",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Revenue (P/Rev)": {
+    "label": "Price to Revenue (P/Rev)",
+    "intrinioDataPoint": "pricetorevenue",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Price to Tangible Book Value (P/TBV)": {
+    "label": "Price to Tangible Book Value (P/TBV)",
+    "intrinioDataPoint": "pricetotangiblebook",
+    "statementCode": "calculations",
+    "type": "valuation",
+    "unit": "multiple",
+    "supported": true
+  },
+  "Profit (Net Income) Margin": {
+    "label": "Profit (Net Income) Margin",
+    "intrinioDataPoint": "profitmargin",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Property & Liability Insurance Claims": {
+    "label": "Property & Liability Insurance Claims",
+    "intrinioDataPoint": "propertyliabilityinsuranceclaims",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Provision for Credit Losses": {
+    "label": "Provision for Credit Losses",
+    "intrinioDataPoint": "provisionforcreditlosses",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Provision For Loan Losses": {
+    "label": "Provision For Loan Losses",
+    "intrinioDataPoint": "provisionforloanlosses",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Purchase of Investments": {
+    "label": "Purchase of Investments",
+    "intrinioDataPoint": "purchaseofinvestments",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Purchase of Property, Plant & Equipment": {
+    "label": "Purchase of Property, Plant & Equipment",
+    "intrinioDataPoint": "purchaseofplantpropertyandequipment",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Quick Ratio": {
+    "label": "Quick Ratio",
+    "intrinioDataPoint": "quickratio",
+    "statementCode": "calculations",
+    "type": "liquidity",
+    "unit": "float",
+    "supported": true
+  },
+  "R&D to Revenue": {
+    "label": "R&D to Revenue",
+    "intrinioDataPoint": "rdextorevenue",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Redeemable Noncontrolling Interest": {
+    "label": "Redeemable Noncontrolling Interest",
+    "intrinioDataPoint": "redeemablenoncontrollinginterest",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Repayment of Debt": {
+    "label": "Repayment of Debt",
+    "intrinioDataPoint": "repaymentofdebt",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Repurchase of Common Equity": {
+    "label": "Repurchase of Common Equity",
+    "intrinioDataPoint": "repurchaseofcommonequity",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Repurchase of Preferred Equity": {
+    "label": "Repurchase of Preferred Equity",
+    "intrinioDataPoint": "repurchaseofpreferredequity",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Research & Development Expense": {
+    "label": "Research & Development Expense",
+    "intrinioDataPoint": "rdexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Restricted Cash": {
+    "label": "Restricted Cash",
+    "intrinioDataPoint": "restrictedcash",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Restructuring Charge": {
+    "label": "Restructuring Charge",
+    "intrinioDataPoint": "restructuringcharge",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Retained Earnings": {
+    "label": "Retained Earnings",
+    "intrinioDataPoint": "retainedearnings",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Return on Assets (ROA)": {
+    "label": "Return on Assets (ROA)",
+    "intrinioDataPoint": "roa",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Return on Common Equity (ROCE)": {
+    "label": "Return on Common Equity (ROCE)",
+    "intrinioDataPoint": "roce",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Return on Equity (ROE)": {
+    "label": "Return on Equity (ROE)",
+    "intrinioDataPoint": "roe",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Return on Invested Capital (ROIC)": {
+    "label": "Return on Invested Capital (ROIC)",
+    "intrinioDataPoint": "roic",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Return on Net Nonoperating Assets (RNNOA)": {
+    "label": "Return on Net Nonoperating Assets (RNNOA)",
+    "intrinioDataPoint": "rnnoa",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Revenue Growth": {
+    "label": "Revenue Growth",
+    "intrinioDataPoint": "revenuegrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Revenue Q/Q Growth": {
+    "label": "Revenue Q/Q Growth",
+    "intrinioDataPoint": "revenueqoqgrowth",
+    "statementCode": "calculations",
+    "type": "growth",
+    "unit": "percentage",
+    "supported": true
+  },
+  "ROIC Less NNEP Spread (ROIC-NNEP)": {
+    "label": "ROIC Less NNEP Spread (ROIC-NNEP)",
+    "intrinioDataPoint": "roicnnepspread",
+    "statementCode": "calculations",
+    "type": "effectiveness",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Salaries and Employee Benefits": {
+    "label": "Salaries and Employee Benefits",
+    "intrinioDataPoint": "salariesandemployeebenefitsexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Sale and/or Maturity of Investments": {
+    "label": "Sale and/or Maturity of Investments",
+    "intrinioDataPoint": "saleofinvestments",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Sale of Property, Plant & Equipment": {
+    "label": "Sale of Property, Plant & Equipment",
+    "intrinioDataPoint": "saleofplantpropertyandequipment",
+    "statementCode": "cash_flow_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "SEC Centeral Index Key (CIK)": {
+    "label": "SEC Centeral Index Key (CIK)",
+    "intrinioDataPoint": "cik",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Sector": {
+    "label": "Sector",
+    "intrinioDataPoint": "sector",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Security Class": {
+    "label": "Security Class",
+    "intrinioDataPoint": "security_class",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Security Name": {
+    "label": "Security Name",
+    "intrinioDataPoint": "security_name",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Security Round Lot Size": {
+    "label": "Security Round Lot Size",
+    "intrinioDataPoint": "security_round_lot_size",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "shares",
+    "supported": true
+  },
+  "Security Ticker Symbol": {
+    "label": "Security Ticker Symbol",
+    "intrinioDataPoint": "security_ticker",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Security Type": {
+    "label": "Security Type",
+    "intrinioDataPoint": "security_type",
+    "statementCode": "current",
+    "type": "security",
+    "unit": "string",
+    "supported": true
+  },
+  "Selling, General & Admin Expense": {
+    "label": "Selling, General & Admin Expense",
+    "intrinioDataPoint": "sgaexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Separate Account Business Assets": {
+    "label": "Separate Account Business Assets",
+    "intrinioDataPoint": "separateaccountbusinessassets",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Separate Account Business Liabilities": {
+    "label": "Separate Account Business Liabilities",
+    "intrinioDataPoint": "separateaccountbusinessliabilities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Service Charges on Deposit Accounts": {
+    "label": "Service Charges on Deposit Accounts",
+    "intrinioDataPoint": "servicechargesondepositsincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Seven Year Monthly Beta": {
+    "label": "Seven Year Monthly Beta",
+    "intrinioDataPoint": "seven_yr_monthly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Seven Year Weekly Beta": {
+    "label": "Seven Year Weekly Beta",
+    "intrinioDataPoint": "seven_yr_weekly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "SG&A Expenses to Revenue": {
+    "label": "SG&A Expenses to Revenue",
+    "intrinioDataPoint": "sgaextorevenue",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Short Description": {
+    "label": "Short Description",
+    "intrinioDataPoint": "short_description",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Short Interest": {
+    "label": "Short Interest",
+    "intrinioDataPoint": "short_interest",
+    "statementCode": "current",
+    "type": "short_interest",
+    "unit": "shares",
+    "supported": true
+  },
+  "Short-Term Borrowings Interest Expense": {
+    "label": "Short-Term Borrowings Interest Expense",
+    "intrinioDataPoint": "shorttermborrowinginterestexpense",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Short-Term Debt": {
+    "label": "Short-Term Debt",
+    "intrinioDataPoint": "shorttermdebt",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Short-Term Debt to Total Capital": {
+    "label": "Short-Term Debt to Total Capital",
+    "intrinioDataPoint": "stdebttocap",
+    "statementCode": "calculations",
+    "type": "capital_structure",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Short-Term Investments": {
+    "label": "Short-Term Investments",
+    "intrinioDataPoint": "shortterminvestments",
+    "statementCode": "balance_sheet",
+    "type": "nonoperating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Split Ratio": {
+    "label": "Split Ratio",
+    "intrinioDataPoint": "split_ratio",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "float",
+    "supported": true
+  },
+  "Standard Industrial Classification Code (SIC)": {
+    "label": "Standard Industrial Classification Code (SIC)",
+    "intrinioDataPoint": "sic",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "integer",
+    "supported": true
+  },
+  "State": {
+    "label": "State",
+    "intrinioDataPoint": "state",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Stock Exchange": {
+    "label": "Stock Exchange",
+    "intrinioDataPoint": "stock_exchange",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Tangible Book Value per Share": {
+    "label": "Tangible Book Value per Share",
+    "intrinioDataPoint": "tangbookvaluepershare",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Tax Burden Percent": {
+    "label": "Tax Burden Percent",
+    "intrinioDataPoint": "taxburdenpct",
+    "statementCode": "calculations",
+    "type": "profitability",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Template": {
+    "label": "Template",
+    "intrinioDataPoint": "template",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Ten Year Monthly Beta": {
+    "label": "Ten Year Monthly Beta",
+    "intrinioDataPoint": "ten_yr_monthly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Ten Year Weekly Beta": {
+    "label": "Ten Year Weekly Beta",
+    "intrinioDataPoint": "ten_yr_weekly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Three Year Monthly Beta": {
+    "label": "Three Year Monthly Beta",
+    "intrinioDataPoint": "three_yr_monthly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Three Year Weekly Beta": {
+    "label": "Three Year Weekly Beta",
+    "intrinioDataPoint": "three_yr_weekly_beta",
+    "statementCode": "current",
+    "type": "betas",
+    "unit": "float",
+    "supported": true
+  },
+  "Ticker Symbol": {
+    "label": "Ticker Symbol",
+    "intrinioDataPoint": "ticker",
+    "statementCode": "current",
+    "type": "info",
+    "unit": "string",
+    "supported": true
+  },
+  "Time Deposits Placed and Other Short-Term Investments": {
+    "label": "Time Deposits Placed and Other Short-Term Investments",
+    "intrinioDataPoint": "timedepositsplaced",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Assets": {
+    "label": "Total Assets",
+    "intrinioDataPoint": "totalassets",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Capital": {
+    "label": "Total Capital",
+    "intrinioDataPoint": "totalcapital",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Common Equity": {
+    "label": "Total Common Equity",
+    "intrinioDataPoint": "totalcommonequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Cost of Revenue": {
+    "label": "Total Cost of Revenue",
+    "intrinioDataPoint": "totalcostofrevenue",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Current Assets": {
+    "label": "Total Current Assets",
+    "intrinioDataPoint": "totalcurrentassets",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Current Liabilities": {
+    "label": "Total Current Liabilities",
+    "intrinioDataPoint": "totalcurrentliabilities",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Debt": {
+    "label": "Total Debt",
+    "intrinioDataPoint": "debt",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Depreciation and Amortization (D&A)": {
+    "label": "Total Depreciation and Amortization (D&A)",
+    "intrinioDataPoint": "depreciationandamortization",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Equity & Noncontrolling Interests": {
+    "label": "Total Equity & Noncontrolling Interests",
+    "intrinioDataPoint": "totalequityandnoncontrollinginterests",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Gross Profit": {
+    "label": "Total Gross Profit",
+    "intrinioDataPoint": "totalgrossprofit",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Liabilities": {
+    "label": "Total Liabilities",
+    "intrinioDataPoint": "totalliabilities",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Liabilities & Shareholders’ Equity": {
+    "label": "Total Liabilities & Shareholders’ Equity",
+    "intrinioDataPoint": "totalliabilitiesandequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Long-Term Debt": {
+    "label": "Total Long-Term Debt",
+    "intrinioDataPoint": "ltdebtandcapleases",
+    "statementCode": "calculations",
+    "type": "metric",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Non-Interest Expense": {
+    "label": "Total Non-Interest Expense",
+    "intrinioDataPoint": "totalnoninterestexpense",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Non-Interest Income": {
+    "label": "Total Non-Interest Income",
+    "intrinioDataPoint": "totalnoninterestincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Noncurrent Assets": {
+    "label": "Total Noncurrent Assets",
+    "intrinioDataPoint": "totalnoncurrentassets",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Noncurrent Liabilities": {
+    "label": "Total Noncurrent Liabilities",
+    "intrinioDataPoint": "totalnoncurrentliabilities",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Operating Expenses": {
+    "label": "Total Operating Expenses",
+    "intrinioDataPoint": "totaloperatingexpenses",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Operating Income": {
+    "label": "Total Operating Income",
+    "intrinioDataPoint": "totaloperatingincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Other Income / (Expense), net": {
+    "label": "Total Other Income / (Expense), net",
+    "intrinioDataPoint": "totalotherincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Pre-Tax Income": {
+    "label": "Total Pre-Tax Income",
+    "intrinioDataPoint": "totalpretaxincome",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Preferred & Common Equity": {
+    "label": "Total Preferred & Common Equity",
+    "intrinioDataPoint": "totalequity",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Total Revenue": {
+    "label": "Total Revenue",
+    "intrinioDataPoint": "totalrevenue",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Trading Account Interest Income": {
+    "label": "Trading Account Interest Income",
+    "intrinioDataPoint": "tradingaccountinterestincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Trading Account Securities": {
+    "label": "Trading Account Securities",
+    "intrinioDataPoint": "tradingaccountsecurities",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Trailing Dividend Rate": {
+    "label": "Trailing Dividend Rate",
+    "intrinioDataPoint": "dividend_rate",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "usdpershare",
+    "supported": true
+  },
+  "Trailing Dividend Yield": {
+    "label": "Trailing Dividend Yield",
+    "intrinioDataPoint": "trailing_dividend_yield",
+    "statementCode": "current",
+    "type": "dividend",
+    "unit": "percentage",
+    "supported": true
+  },
+  "Treasury Stock": {
+    "label": "Treasury Stock",
+    "intrinioDataPoint": "treasurystock",
+    "statementCode": "balance_sheet",
+    "type": "",
+    "unit": "usd",
+    "supported": true
+  },
+  "Trust Fees by Commissions": {
+    "label": "Trust Fees by Commissions",
+    "intrinioDataPoint": "trustfeeincome",
+    "statementCode": "income_statement",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Unearned Premiums Asset": {
+    "label": "Unearned Premiums Asset",
+    "intrinioDataPoint": "unearnedpremiumsdebit",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Unearned Premiums Liability": {
+    "label": "Unearned Premiums Liability",
+    "intrinioDataPoint": "unearnedpremiumscredit",
+    "statementCode": "balance_sheet",
+    "type": "operating",
+    "unit": "usd",
+    "supported": true
+  },
+  "Volume": {
+    "label": "Volume",
+    "intrinioDataPoint": "volume",
+    "statementCode": "current",
+    "type": "prices",
+    "unit": "shares",
+    "supported": true
+  },
+  "Weighted Average Basic & Diluted Shares Outstanding": {
+    "label": "Weighted Average Basic & Diluted Shares Outstanding",
+    "intrinioDataPoint": "weightedavebasicdilutedsharesos",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "shares",
+    "supported": true
+  },
+  "Weighted Average Basic Shares Outstanding": {
+    "label": "Weighted Average Basic Shares Outstanding",
+    "intrinioDataPoint": "weightedavebasicsharesos",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "shares",
+    "supported": true
+  },
+  "Weighted Average Diluted Shares Outstanding": {
+    "label": "Weighted Average Diluted Shares Outstanding",
+    "intrinioDataPoint": "weightedavedilutedsharesos",
+    "statementCode": "income_statement",
+    "type": "",
+    "unit": "shares",
+    "supported": true
+  }
+}
