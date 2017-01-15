@@ -1,15 +1,15 @@
 /* jshint esversion: 6 */
-var config = require('../config.json').intrinio;
 var rp = require('request-promise');
+var env = process.env;
 
-if (!config.userName && !config.password) {
+if (!env.INTRINIO_USERNAME && !env.INTRINIO_PASSWORD) {
   throw 'Missing configuration for intrinio service';
 }
 
 var opts = {
   'auth': {
-    'user': config.userName,
-    'pass': config.password
+    'user': env.INTRINIO_USERNAME,
+    'pass': env.INTRINIO_PASSWORD
   }
 };
 
