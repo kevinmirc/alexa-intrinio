@@ -22,7 +22,7 @@ app
         var dataPoint = dataPointMapping.find(this.query.dataPoint);
         if (dataPoint) {
           var dataPointRes = yield intrinio.getDataPoint(company.ticker, dataPoint.intrinioDataPoint);
-          // dataPointRes = JSON.parse(dataPointRes);
+          dataPointRes = JSON.parse(dataPointRes);
           this.body = alexa.buildResponseBody(dataPointRes.value, 'speachType', 'Unit');
         } else {
           console.warn(`Unmatched data point query: '${this.query.dataPoint}'`);
