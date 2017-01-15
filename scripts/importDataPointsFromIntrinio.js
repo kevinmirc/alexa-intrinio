@@ -12,7 +12,7 @@ function parse(data) {
   newData.forEach(function (str) {
     // 'Total Other Income / (Expense), net\ttotalotherincome\tincome_statement\t\tusd'
     var rowArray = str.split('\t');
-    map[rowArray[0]] = {
+    map[rowArray[0].toLowerCase()] = {
       label: rowArray[0],
       intrinioDataPoint: rowArray[1],
       statementCode: rowArray[2],
