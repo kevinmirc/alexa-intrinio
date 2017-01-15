@@ -33,22 +33,22 @@ app
       if (company) {
         console.log(company);
         // convert the human readable dataPoint string to an intrinio-api friendly datapoint string
-        var dataPoint = dataPointMapping.find(this.query.dataPoint);
+        var dataPoint = null;//dataPointMapping.find(this.query.dataPoint);
         if (dataPoint) {
           this.body = yield intrinio.getDataPoint(company.ticker, dataPoint.intrinioDataPoint);
         } else {
           this.statusCode = 404;
-          this.body = `Could not find ${this.query.dataPoint} for ${this.query.companyName}`;
+          this.body = {error: `Could not find ${this.query.dataPoint} for ${this.query.companyName}`};
         }
         // return speach string
         // return speach string with unit as string ex: "dollars", "shares", "percent", etc.
       } else {
         this.statusCode = 404;
-        this.body = `Could not find a company with name: ${this.query.companyName}`;
+        this.body = {error: `Could not find a company with name: ${this.query.companyName}`};
       }
     } else {
       this.statusCode = 400;
-      this.body = `Must provide query for companyName and dataPoint.`;
+      this.body = {error: `Must provide query for companyName and dataPoint.`};
     }
     yield next;
   }));
