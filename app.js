@@ -10,9 +10,11 @@ var alexa = require('./services/alexa');
 
 app
   .use(router.get('/', function *(next) {
+    console.log(`HIT GET '/'`, this.request);
     var _ = require('lodash');
 
     if (this.query.companyName && this.query.dataPoint) {
+      console.log(this.request);
       var companyRes = yield intrinio.queryCompany(this.query.companyName);
       var companies = JSON.parse(companyRes).data;
       var company = _.head(companies);
@@ -39,6 +41,11 @@ app
     }
     yield next;
   }));
+
+app.use(router.post('/', function *(next) {
+  console.log(`HIT POST '/'`, this.request);
+  yield next;
+}));
 
 app.listen(port);
 console.log('Using port', port);
