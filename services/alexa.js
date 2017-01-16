@@ -29,6 +29,18 @@ module.exports = {
   // return speach string
   // return speach string with unit as string ex: "dollars", "shares", "percent", etc.
   buildResponseBody: function (text, speachType, unit) {
-    return `<speak>${text}</speak>`;
+    return res(`<speak>${text}</speak>`);
   }
 };
+
+function res(text) {
+  return {
+    "response": {
+      "outputSpeach": {
+        type: "ssml",
+        ssml: text
+      }
+    },
+    "sessionAttributes": {}
+  };
+}
