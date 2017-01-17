@@ -10,7 +10,7 @@ response body should look like this:
 </speak>
 */
 var _ = require('lodash');
-// var interpretAsOptions =
+// var interpretAsOptions;
 // /*
 // haracters, spell-out: Spell out each letter.
 // cardinal, number: Interpret the value as a cardinal number.
@@ -28,6 +28,7 @@ var _ = require('lodash');
 module.exports = {
   // return speach string
   // return speach string with unit as string ex: "dollars", "shares", "percent", etc.
+  // <speak><say-as interpret-as="cardinal">119</say-as> dollars and <say-as interpret-as="cardinal">04</say-as> cents</speak>
   buildResponseBody: function (text, speachType, unit) {
     return res(`<speak>${text}</speak>`);
   }
@@ -36,9 +37,9 @@ module.exports = {
 function res(text) {
   return {
     "response": {
-      "outputSpeach": {
-        type: "ssml",
-        ssml: text
+      "outputSpeech": {
+        "type": "ssml",
+        "ssml": text
       }
     },
     "sessionAttributes": {}
