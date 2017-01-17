@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Amazon Alexa skill to retireve financial data from Intrino",
   "main": "app.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kevinmirc/alexa-intrinio"
+  },
   "scripts": {
     "start": "node app.js"
   },
