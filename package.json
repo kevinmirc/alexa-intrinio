@@ -1,15 +1,14 @@
 {
   "name": "alexa-intrinio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Amazon Alexa skill to retireve financial data from Intrino",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "deploy": "git push heroku master"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kevin Mircovich <kmircovich1@gmail.com> (https://github.com/kevinmirc)",
+  "license": "MIT",
   "dependencies": {
     "koa": "^1.2.4",
     "koa-bodyparser": "^2.3.0",

@@ -1,15 +1,15 @@
 /* jshint esversion: 6 */
-var port = process.env.PORT || 3000;
 var koa = require('koa');
-var app = koa();
 var bodyParser = require('koa-bodyparser');
-
 var router = require('koa-route');
+var _ = require('lodash');
+
 var intrinio = require('./services/intrinio');
 var dataPointMapping = require('./services/dataPointMapping');
 var alexa = require('./services/alexa');
 
-var _ = require('lodash');
+var app = koa();
+var port = process.env.PORT || 3000;
 
 app.use(bodyParser());
 
@@ -25,23 +25,26 @@ app.use(router.post('/', function *(next) {
 
     if (company) {
       // convert the human readable dataPoint string to an intrinio-api friendly datapoint string
-      var dataPoint = dataPointMapping.find(requestedDataPoint);
-      if (dataPoint) {
-        var dataPointRes = yield intrinio.getDataPoint(company.ticker, dataPoint.intrinioDataPoint);
+      var intrinioDataPoint = dataPointMapping.find(requestedDataPoint);
+      if (intrinioDataPoint) {
+        var dataPointRes = yield intrinio.getDataPoint(company.ticker, intrinioDataPoint.intrinioDataPoint);
         dataPointRes = JSON.parse(dataPointRes);
-        this.body = alexa.buildResponseBody(dataPointRes.value, 'speachType', 'Unit');
+        this.body = alexa.buildResponseBodyFromIntrinioDataPoint(dataPointRes.value, intrinioDataPoint);
       } else {
-        console.warn(`Unmatched data point query: '${requestedDataPoint}'`);
         this.statusCode = 404;
         this.body = alexa.buildResponseBody(`Could not find ${requestedDataPoint} for ${requestedCompanyName}`);
       }
     } else {
       this.statusCode = 404;
-      this.body = alexa.buildResponseBody(`Could not find a company with name: ` + requestedCompanyName);
+      this.body = alexa.buildResponseBody(`Could not find a company with the name ` + requestedCompanyName);
     }
   } else {
     this.statusCode = 400;
-    this.body = alexa.buildResponseBody(`Must provide query for companyName and dataPoint.`);
+    this.body = alexa.buildResponseBody(
+      `Please provide me with a data point and a company name. ` +
+      `You can say, for example: who is the C.E.O of Amazon. ` +
+      `Or, what is the quick ratio of Apple.`
+      );
   }
   yield next;
 }));
