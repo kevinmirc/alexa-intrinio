@@ -62,7 +62,6 @@ function buildResponseBody(text) {
 }
 
 function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
-  console.log(value, intrinioDataPoint);
   var conversion = _.get(verbalizationMapping[intrinioDataPoint.unit], 'conversion');
   if (conversion) { value = conversion(value); }
   return buildResponseBody(value);
