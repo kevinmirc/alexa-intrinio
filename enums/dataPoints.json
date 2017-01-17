@@ -439,7 +439,7 @@
     "unit": "usd",
     "supported": true
   },
-  "close price": {
+  "closing price": {
     "label": "Close Price",
     "intrinioDataPoint": "close_price",
     "statementCode": "current",
@@ -1967,7 +1967,7 @@
     "unit": "float",
     "supported": true
   },
-  "open price": {
+  "opening price": {
     "label": "Open Price",
     "intrinioDataPoint": "open_price",
     "statementCode": "current",
