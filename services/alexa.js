@@ -36,13 +36,13 @@ module.exports = {
 
 function res(text) {
   return {
-    "version": "1.0",
-    "response": {
-      "outputSpeech": {
-        "type": "ssml",
-        "ssml": text
+    version: 1.0,
+    response: {
+      outputSpeech: {
+        type: "SSML",
+        ssml: text
       }
     },
-    "sessionAttributes": {}
+    sessionAttributes: {}
   };
 }
