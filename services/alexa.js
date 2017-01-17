@@ -36,6 +36,7 @@ module.exports = {
 
 function res(text) {
   return {
+    "version": "1.0",
     "response": {
       "outputSpeech": {
         "type": "ssml",
