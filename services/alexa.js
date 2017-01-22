@@ -64,37 +64,38 @@ function buildResponseBody(text, keepSessionOpen) {
 function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
   var conversion = _.get(verbalizationMapping[intrinioDataPoint.unit], 'conversion');
   if (conversion) { value = conversion(value); }
-  return buildResponseBody(value);
+  return buildResponseBody(value, true);
 }
 
 function res(ssml, keepSessionOpen, cardContent) {
   var response = {
     version: 1.0,
     response: {
+      outputSpeech: {
+        type: "SSML",
+        ssml: ssml
+      },
       card: {
         type: "Simple",
         title: "Intrinio",
         content: cardContent
       },
-      shouldEndSession: !keepSessionOpen,
-      sessionAttributes: {
-        shouldEndSession: !keepSessionOpen
-      }
+      shouldEndSession: !keepSessionOpen
     }
   };
 
-  if (keepSessionOpen) {
-    response.response.reprompt = {};
-    response.response.reprompt.outputSpeech = {
-      type: "SSML",
-      ssml: ssml
-    };
-  } else {
-    response.response.outputSpeech = {
-      type: "SSML",
-      ssml: ssml
-    };
-  }
+  // if (keepSessionOpen) {
+  //   response.response.reprompt = {};
+  //   response.response.reprompt.outputSpeech = {
+  //     type: "SSML",
+  //     ssml: ssml
+  //   };
+  // } else {
+  //   response.response.outputSpeech = {
+  //     type: "SSML",
+  //     ssml: ssml
+  //   };
+  // }
 
   return response;
 }
