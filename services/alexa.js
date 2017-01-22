@@ -57,8 +57,8 @@ var verbalizationMapping = {
   }
 };
 
-function buildResponseBody(text) {
-  return res(`<speak>${text}</speak>`);
+function buildResponseBody(text, keepSessionOpen) {
+  return res(`<speak>${text}</speak>`, keepSessionOpen, text);
 }
 
 function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
@@ -67,15 +67,22 @@ function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
   return buildResponseBody(value);
 }
 
-function res(text) {
+function res(ssml, keepSessionOpen, cardContent) {
   return {
     version: 1.0,
     response: {
       outputSpeech: {
         type: "SSML",
-        ssml: text
+        ssml: ssml
+      },
+      card: {
+        type: "Simple",
+        title: "Intrinio",
+        content: cardContent
       }
     },
-    sessionAttributes: {}
+    sessionAttributes: {
+      shouldEndSession: !keepSessionOpen
+    }
   };
 }
