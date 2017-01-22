@@ -68,7 +68,7 @@ function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
 }
 
 function res(ssml, keepSessionOpen, cardContent) {
-  return {
+  var response = {
     version: 1.0,
     response: {
       outputSpeech: {
@@ -85,4 +85,19 @@ function res(ssml, keepSessionOpen, cardContent) {
       }
     }
   };
+
+  if (keepSessionOpen) {
+    response.response.reprompt = {};
+    response.response.reprompt.outputSpeech = {
+      type: "SSML",
+      ssml: ssml
+    };
+  } else {
+    response.response.outputSpeech = {
+      type: "SSML",
+      ssml: ssml
+    };
+  }
+
+  return response;
 }
