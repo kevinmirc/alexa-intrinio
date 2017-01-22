@@ -79,10 +79,10 @@ function res(ssml, keepSessionOpen, cardContent) {
         type: "Simple",
         title: "Intrinio",
         content: cardContent
+      },
+      sessionAttributes: {
+        shouldEndSession: !keepSessionOpen
       }
-    },
-    sessionAttributes: {
-      shouldEndSession: !keepSessionOpen
     }
   };
 }
