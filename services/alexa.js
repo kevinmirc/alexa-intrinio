@@ -71,15 +71,12 @@ function res(ssml, keepSessionOpen, cardContent) {
   var response = {
     version: 1.0,
     response: {
-      outputSpeech: {
-        type: "SSML",
-        ssml: ssml
-      },
       card: {
         type: "Simple",
         title: "Intrinio",
         content: cardContent
       },
+      shouldEndSession: !keepSessionOpen,
       sessionAttributes: {
         shouldEndSession: !keepSessionOpen
       }
