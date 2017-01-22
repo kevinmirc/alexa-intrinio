@@ -4,6 +4,7 @@ var _ = require('lodash');
 additionalDataPointMappings = {
   'price': 'last price',
   'cost': 'last price',
+  'stock price': 'last price',
   'C.E.O': 'ceo',
   'open price': 'opening price',
   'close price': 'closing price'
