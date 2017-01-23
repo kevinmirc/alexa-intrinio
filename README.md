@@ -43,19 +43,19 @@ POST to http://localhost:3000/ with this body:
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.12f12345-d1ff-12a1-b12a-1b4c12cb123f",
+    "requestId": "EdwRequestId.63b3cf70-3f95-4c06-bf33-891567a0e819",
     "locale": "en-US",
-    "timestamp": "2017-01-17T01:05:10Z",
+    "timestamp": "2017-01-23T00:43:37Z",
     "intent": {
       "name": "GetStockPrice",
       "slots": {
         "companyName": {
           "name": "companyName",
-          "value": "Apple"
+          "value": "amazon"
         },
         "dataPoint": {
           "name": "dataPoint",
-          "value": "days to cover"
+          "value": "price"
         }
       }
     }
@@ -71,10 +71,21 @@ POST to http://localhost:3000/ with this body:
   "response": {
     "outputSpeech": {
       "type": "SSML",
-      "ssml": "<speak>Tim Cook</speak>"
-    }
-  },
-  "sessionAttributes": {}
+      "ssml": "<speak><say-as interpret-as=\"cardinal\">807</say-as> dollars and <say-as interpret-as=\"cardinal\">79</say-as> cents per share</speak>"
+    },
+    "card": {
+      "type": "Simple",
+      "title": "Powered by Intrinio",
+      "content": "$807.79 per share."
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Can I help you with anything else? Ask for a data point or say exit."
+      }
+    },
+    "shouldEndSession": false
+  }
 }
 ```
 
