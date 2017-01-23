@@ -15,56 +15,82 @@ var _ = require('lodash');
 
 module.exports = {
   buildResponseBody: buildResponseBody,
-  buildResponseBodyFromIntrinioDataPoint: buildResponseBodyFromIntrinioDataPoint
+  buildResponseBodyFromIntrinioDataPoint: buildResponseBodyFromIntrinioDataPoint,
+  helpResponse: getHelpPrompt()
 };
 
 var verbalizationMapping = {
   'usdpershare': {
     intrinioUnit: 'usdpershare',
-    conversion: function (value) {
+    getSsmlValue: function (value) {
       var fractionalNum = _.toString(value).split('.')[1];
       var intervalNum = _.toString(value).split('.')[0];
       return `<say-as interpret-as="cardinal">${intervalNum || 0}</say-as> dollars and <say-as interpret-as="cardinal">${fractionalNum || 0}</say-as> cents per share`;
+    },
+    getDisplayValue: function (value) {
+      return `$${value} per share.`;
     }
   },
   'usd': {
     intrinioUnit: 'usd',
-    conversion: function (value) {
+    getSsmlValue: function (value) {
       var fractionalNum = _.toString(value).split('.')[1];
       var intervalNum = _.toString(value).split('.')[0];
       return `<say-as interpret-as="cardinal">${intervalNum || 0}</say-as> dollars and <say-as interpret-as="cardinal">${fractionalNum || 0}</say-as> cents`;
+    },
+    getDisplayValue: function (value) {
+      return `$${value}`;
     }
   },
   'shares': {
     intrinioUnit: 'shares',
-    conversion: function (value) {
+    getSsmlValue: function (value) {
+      return `${value} shares`;
+    },
+    getDisplayValue: function (value) {
       return `${value} shares`;
     }
   },
   'percentage': {
     intrinioUnit: 'percentage',
-    conversion: function (value) {
+    getSsmlValue: function (value) {
       value = value || 0;
       value = value * 100;
       return `${value} percent`;
+    },
+    getDisplayValue: function (value) {
+      return `${value}%`;
     }
   },
   'days': {
     intrinioUnit: 'days',
-    conversion: function (value) {
+    getSsmlValue: function (value) {
+      return `${value} days`;
+    },
+    getDisplayValue: function (value) {
       return `${value} days`;
     }
   }
 };
 
-function buildResponseBody(text, keepSessionOpen) {
-  return res(`<speak>${text}</speak>`, keepSessionOpen, text);
+function getHelpPrompt() {
+  return  `Please provide me with a data point and a company name. ` +
+          `You can say, for example: who is the C.E.O of Amazon. ` +
+          `Or, what is the quick ratio of Apple.`;
+}
+
+function buildResponseBody(ssml, keepSessionOpen, cardContent) {
+  return res(`<speak>${ssml}</speak>`, keepSessionOpen, cardContent || ssml);
 }
 
 function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
-  var conversion = _.get(verbalizationMapping[intrinioDataPoint.unit], 'conversion');
-  if (conversion) { value = conversion(value); }
-  return buildResponseBody(value, true);
+  var toText = _.get(verbalizationMapping[intrinioDataPoint.unit], 'getDisplayValue');
+  var toSSML = _.get(verbalizationMapping[intrinioDataPoint.unit], 'getSsmlValue');
+
+  var ssmlValue = toSSML ? toSSML(value) : value;
+  var textValue = toText ? toText(value) : value;
+
+  return buildResponseBody(ssmlValue, true, textValue);
 }
 
 function res(ssml, keepSessionOpen, cardContent) {
@@ -75,27 +101,20 @@ function res(ssml, keepSessionOpen, cardContent) {
         type: "SSML",
         ssml: ssml
       },
+      reprompt: {
+        outputSpeech: {
+          type: "SSML",
+          ssml: getHelpPrompt()
+        }
+      },
       card: {
         type: "Simple",
-        title: "Intrinio",
+        title: "Powered by Intrinio",
         content: cardContent
       },
       shouldEndSession: !keepSessionOpen
     }
   };
-
-  // if (keepSessionOpen) {
-  //   response.response.reprompt = {};
-  //   response.response.reprompt.outputSpeech = {
-  //     type: "SSML",
-  //     ssml: ssml
-  //   };
-  // } else {
-  //   response.response.outputSpeech = {
-  //     type: "SSML",
-  //     ssml: ssml
-  //   };
-  // }
 
   return response;
 }

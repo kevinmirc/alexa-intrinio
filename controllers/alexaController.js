@@ -22,19 +22,15 @@ handleIntent = function * (intent) {
         return alexa.buildResponseBodyFromIntrinioDataPoint(dataPointRes.value, intrinioDataPoint);
       } else {
         this.statusCode = 404;
-        return alexa.buildResponseBody(`Could not find ${requestedDataPoint} for ${requestedCompanyName}`);
+        return alexa.buildResponseBody(`Could not find ${requestedDataPoint} for ${requestedCompanyName}`, true);
       }
     } else {
       this.statusCode = 404;
-      return alexa.buildResponseBody(`Could not find a company with the name ` + requestedCompanyName);
+      return alexa.buildResponseBody(`Could not find a company with the name ` + requestedCompanyName, true);
     }
   } else {
     this.statusCode = 400;
-    return alexa.buildResponseBody(
-      `Please provide me with a data point and a company name. ` +
-      `You can say, for example: who is the C.E.O of Amazon. ` +
-      `Or, what is the quick ratio of Apple.`, true
-      );
+    return alexa.buildResponseBody(alexa.helpResponse, true);
   }
 };
 

@@ -7,8 +7,6 @@ var _ = require('lodash');
 var alexa = require('./services/alexa');
 var alexaCtrl = require('./controllers/alexaController');
 
-console.log(alexaCtrl);
-
 var app = koa();
 var port = process.env.PORT || 3000;
 
@@ -18,11 +16,11 @@ app.use(router.post('/', function *(next) {
   var requestType = _.get(this, 'request.body.request.type');
 
   switch (requestType) {
-    case 'IntentRequest': //Invoking a Skill with a Specific Request (Intent)
+    case 'IntentRequest':
       var intent = _.get(this, 'request.body.request.intent');
       this.body = yield alexaCtrl.handleIntent(intent);
       break;
-    case 'LaunchRequest': // Invoking a Skill with No Specific Request
+    case 'LaunchRequest':
       this.body = alexa.buildResponseBody('What would you like to know.', true);
       break;
     case 'SessionEndedRequest':
