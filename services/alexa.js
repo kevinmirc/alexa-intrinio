@@ -109,7 +109,7 @@ function res(ssml, keepSessionOpen, cardContent) {
       reprompt: {
         outputSpeech: {
           type: "PlainText",
-          text: "Can I help you with anything else?"
+          text: "Can I help you with anything else? Ask for a data point or say exit."
         }
       },
       shouldEndSession: !keepSessionOpen

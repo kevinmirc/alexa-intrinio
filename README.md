@@ -15,7 +15,7 @@ Status: `Under review by Amazon`
 
 "What is the closing price for General Electric?" `31 dollars and 36 cents per share.`
 
-"What is the debt to total capital for Bank of America" `48.2707 percent`
+"What is the 52 week low for Bank of America" => `$10.99 per share`
 
 
 ## Contribute
@@ -79,12 +79,11 @@ POST to http://localhost:3000/ with this body:
 ```
 
 ## TODO
-- add card response in endpoint: https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/providing-home-cards-for-the-amazon-alexa-app.
 - add a db to store every request, intent, and if it was successfully responded to (for reporting and improving the service).
 - create unit tests for each service
 - create end-to-end tests
-- check with someone at Intrinio to see if percentages should be taken literal or be multiplied by 100 (currently being multiplied).
+- refactor intrinioDataPoints to be a class with instance methods
 
 ## Alexa Configuration
 Keywords:
-- Finance, Data, Financial, Stock, Trading, Fintech, Intrinio, Financial, Market, Information, Datasets, Value
+- Finance, Data, Financial, Stock, Money, Mitch, Trading, Fintech, Intrinio, Financial, Market, Information, Datasets, Value
