@@ -33,7 +33,7 @@ app.use(router.post('/', function *(next) {
       this.body = alexa.buildResponseBody('What would you like to know.', true);
       break;
     case 'SessionEndedRequest':
-      this.body = alexa.buildResponseBody('peace!', false);
+      this.body = alexa.buildResponseBody('Adios.', false);
       break;
     default:
       this.body = alexa.buildResponseBody('meh', true);

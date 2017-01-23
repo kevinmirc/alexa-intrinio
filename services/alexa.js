@@ -106,6 +106,12 @@ function res(ssml, keepSessionOpen, cardContent) {
         title: "Powered by Intrinio",
         content: cardContent || ''
       },
+      reprompt: {
+        outputSpeech: {
+          type: "PlainText",
+          text: "Can I help you with anything else?"
+        }
+      },
       shouldEndSession: !keepSessionOpen
     }
   };
