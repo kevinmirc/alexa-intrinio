@@ -110,7 +110,7 @@ function res(ssml, keepSessionOpen, cardContent) {
       card: {
         type: "Simple",
         title: "Powered by Intrinio",
-        content: cardContent
+        content: cardContent || ''
       },
       shouldEndSession: !keepSessionOpen
     }

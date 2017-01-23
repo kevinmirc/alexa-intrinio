@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 var koa = require('koa');
 var bodyParser = require('koa-bodyparser');
+var logger = require('koa-logger');
 var router = require('koa-route');
 var _ = require('lodash');
 
@@ -11,6 +12,14 @@ var app = koa();
 var port = process.env.PORT || 3000;
 
 app.use(bodyParser());
+app.use(logger());
+
+app.use(function *(next) {
+  var time = new Date().getTime();
+  var date = new Date(time);
+  console.log(date.toString(), '\n\t',this.request.body);
+  yield next;
+});
 
 app.use(router.post('/', function *(next) {
   var requestType = _.get(this, 'request.body.request.type');
