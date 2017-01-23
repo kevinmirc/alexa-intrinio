@@ -101,12 +101,6 @@ function res(ssml, keepSessionOpen, cardContent) {
         type: "SSML",
         ssml: ssml
       },
-      reprompt: {
-        outputSpeech: {
-          type: "SSML",
-          ssml: getHelpPrompt()
-        }
-      },
       card: {
         type: "Simple",
         title: "Powered by Intrinio",
