@@ -11,9 +11,11 @@ Status: `Under review by Amazon`
 
 "What was the closing price for Alphabet?" `844 dollars and 43 cents per share.`
 
-"What was the last price of Tesla?" `248 dollars and 8 cents per share.`
+"What was the last price for Tesla?" `248 dollars and 8 cents per share.`
 
 "What is the 52 week low for Bank of America" `$10.99 per share`
+
+"How many employees does Tesla have" `13,058`
 
 
 ## Contribute
