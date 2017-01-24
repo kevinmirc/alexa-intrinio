@@ -9,9 +9,9 @@ Status: `Under review by Amazon`
 ## Demo
 "What was the opening price for Apple?" `120 dollars and 0 cents per share.`
 
-"What was the closing price for Alphabet?" `844 dollars and 43 cents per share.`
+"What was the closing price for Amazon?" `844 dollars and 43 cents per share.`
 
-"What was the last price for Tesla?" `248 dollars and 8 cents per share.`
+"What was the last price for Facebook?" `128 dollars and 94 cents per share.`
 
 "What is the 52 week low for Bank of America" `$10.99 per share`
 
