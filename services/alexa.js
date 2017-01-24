@@ -75,8 +75,8 @@ var verbalizationMapping = {
 
 function getHelpPrompt() {
   return  `Please provide me with a data point and a company name. ` +
-          `You can say, for example: who is the C.E.O of Amazon. ` +
-          `Or, what is the quick ratio of Apple.`;
+          `You can say, for example: What was the last price for Apple. ` +
+          `Or, what was the opening price for Alphabet.`;
 }
 
 function buildResponseBody(ssml, keepSessionOpen, cardContent) {

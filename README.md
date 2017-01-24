@@ -7,13 +7,11 @@ Status: `Under review by Amazon`
 
 
 ## Demo
-"Who is the ceo of Tesla?" `Elon Reeve Musk.`
+"What was the opening price for Apple?" `120 dollars and 0 cents per share.`
 
-"How many employees does Amazon have?" `230,800.`
+"What was the closing price for Alphabet?" `844 dollars and 43 cents per share.`
 
-"What is the opening price for Apple?" `119 dollars and 11 cents per share.`
-
-"What is the closing price for General Electric?" `31 dollars and 36 cents per share.`
+"What was the last price of Tesla?" `248 dollars and 8 cents per share.`
 
 "What is the 52 week low for Bank of America" `$10.99 per share`
 
