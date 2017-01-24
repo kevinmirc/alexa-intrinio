@@ -7,7 +7,8 @@ additionalDataPointMappings = {
   'stock price': 'last price',
   'C.E.O': 'ceo',
   'open price': 'opening price',
-  'close price': 'closing price'
+  'close price': 'closing price',
+  'current price': 'last price'
 };
 
 // create additional data point interpretations

@@ -4,7 +4,7 @@ var intrinio = require('../services/intrinio');
 var dataPointMapping = require('../services/dataPointMapping');
 var alexa = require('../services/alexa');
 
-handleIntent = function * (intent) {
+var handleIntent = function * (intent) {
   var requestedCompanyName = _.get(intent, 'slots.companyName.value');
   var requestedDataPoint = _.get(intent, 'slots.dataPoint.value');
 
@@ -34,7 +34,7 @@ handleIntent = function * (intent) {
   }
 };
 
-openSession = function () {
+var openSession = function () {
   return alexa.buildResponseBody();
 };
 

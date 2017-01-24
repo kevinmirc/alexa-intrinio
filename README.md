@@ -15,7 +15,7 @@ Status: `Under review by Amazon`
 
 "What is the closing price for General Electric?" `31 dollars and 36 cents per share.`
 
-"What is the 52 week low for Bank of America" => `$10.99 per share`
+"What is the 52 week low for Bank of America" `$10.99 per share`
 
 
 ## Contribute
@@ -81,7 +81,7 @@ POST to http://localhost:3000/ with this body:
     "reprompt": {
       "outputSpeech": {
         "type": "PlainText",
-        "text": "Can I help you with anything else? Ask for a data point or say exit."
+        "text": "Can I help you with anything else? Ask for a data point, or say 'exit'."
       }
     },
     "shouldEndSession": false

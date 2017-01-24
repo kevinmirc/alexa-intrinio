@@ -22,6 +22,14 @@ app.use(function *(next) {
 });
 
 app.use(router.post('/', function *(next) {
+  var appId = _.get(this, 'request.body.session.application.applicationId');
+
+  if (appId !== process.env.AMAZONAPPID) {
+    this.statusCode = 403;
+    this.body = 'Not Authorized';
+    return;
+  }
+
   var requestType = _.get(this, 'request.body.request.type');
 
   switch (requestType) {
