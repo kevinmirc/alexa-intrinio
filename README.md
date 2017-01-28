@@ -1,9 +1,9 @@
 # Alexa-Intrinio
 **An Amazon Alexa Intrinio Skill**
 
-This is an API for the Intrinio Amazon alexa skill.
+This is an API for the Intrinio Amazon Alexa skill.
 (add link to skill here)
-Status: `Under review by Amazon`
+Status: `Failed Amazon Certification`, see [certification.md](./certification.md)
 
 
 ## Demo
@@ -64,7 +64,7 @@ POST to http://localhost:3000/ with this body:
 }
 ```
 
-### Sample Request
+### Sample Response
 ```json
 {
   "version": 1,
@@ -90,6 +90,7 @@ POST to http://localhost:3000/ with this body:
 ```
 
 ## TODO
+- [pass certification](./certification.md)
 - add a db to store every request, intent, and if it was successfully responded to (for reporting and improving the service).
 - create unit tests for each service
 - create end-to-end tests
