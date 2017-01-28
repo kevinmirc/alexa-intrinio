@@ -23,6 +23,13 @@ Clone project
 
 `npm i` to install dependencies.
 
+`npm install -g foreman` install node-foreman globally
+
+Set these global vars:
+- `AMAZONAPPID` (the amazon id in req needs to match the one in the environment to authenticate)
+- `INTRINIO_USERNAME`
+- `INTRINIO_PASSWORD`
+
 `nf run nodemon app.js` to serve app locally.
 
 
