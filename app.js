@@ -20,7 +20,7 @@ app.use(bodyParser());
 app.use(function *(next) {
   var time = new Date().getTime();
   var date = new Date(time);
-  console.log(date.toString(), '\n\t', this.request.body);
+  console.log(date.toString(), '\n\t', this.request);
   yield next;
 });
 
