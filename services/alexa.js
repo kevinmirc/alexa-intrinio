@@ -88,7 +88,7 @@ function buildResponseBodyFromIntrinioDataPoint(value, intrinioDataPoint) {
   var ssmlValue = toSSML ? toSSML(value) : value;
   var textValue = toText ? toText(value) : value;
 
-  return buildResponseBody(ssmlValue, false, textValue);
+  return buildResponseBody(ssmlValue + '. Anything else?', true, textValue);
 }
 
 function res(ssml, keepSessionOpen, cardContent) {
