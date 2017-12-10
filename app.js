@@ -32,7 +32,7 @@ app.use(function * (next) {
     yield alexaVerifier(cert_url, signature, requestRawBody);
     yield next;
   } catch (e) {
-    console.log('Failed Alexa Verification');
+    console.log('Failed Alexa Verification', e);
     this.status = 400;
     return;
   }
