@@ -32,6 +32,8 @@ Set these global vars:
 
 `nf run nodemon app.js` to serve app locally.
 
+Runs on node verion: `5.6.0`
+
 
 ### Sample Request
 POST to http://localhost:3000/ with this body:
