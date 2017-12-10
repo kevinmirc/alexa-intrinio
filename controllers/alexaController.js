@@ -7,6 +7,11 @@ var alexa = require('../services/alexa');
 var handleIntent = function * (intent) {
   var requestedCompanyName = _.get(intent, 'slots.companyName.value');
   var requestedDataPoint = _.get(intent, 'slots.dataPoint.value');
+  var intentName = _.get(intent, 'name');
+
+  if (intentName === 'AMAZON.StopIntent' || intentName === 'AMAZON.CancelIntent') {
+    return alexa.buildResponseBody(`Goodbye`, false);
+  }
 
   if (requestedDataPoint && requestedCompanyName) {
     var companyRes = yield intrinio.queryCompany(requestedCompanyName);

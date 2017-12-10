@@ -51,11 +51,7 @@ app.use(router.post('/', function *(next) {
   switch (requestType) {
     case 'IntentRequest':
       var intent = _.get(this, 'request.body.request.intent');
-      if (intent === 'AMAZON.StopIntent' || intent === 'AMAZON.CancelIntent') {
-        this.body = alexa.buildResponseBody('Goodbye.', false);
-      } else {
-        this.body = yield alexaCtrl.handleIntent(intent);
-      }
+      this.body = yield alexaCtrl.handleIntent(intent);
       break;
     case 'LaunchRequest':
       this.body = alexa.buildResponseBody('What would you like to know.', true);
