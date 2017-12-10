@@ -17,6 +17,13 @@ var alexaVerifier = promisify(verifier);
 app.use(logger());
 app.use(bodyParser());
 
+app.use(function *(next) {
+  var time = new Date().getTime();
+  var date = new Date(time);
+  console.log(date.toString(), '\n\t', this.request.body);
+  yield next;
+});
+
 app.use(function * (next) {
   try {
     var requestRawBody = JSON.stringify(this.request.body);
@@ -28,13 +35,6 @@ app.use(function * (next) {
     this.status = 400;
     return;
   }
-});
-
-app.use(function *(next) {
-  var time = new Date().getTime();
-  var date = new Date(time);
-  console.log(date.toString(), '\n\t', this.request.body);
-  yield next;
 });
 
 app.use(router.post('/', function *(next) {
