@@ -29,6 +29,8 @@ app.use(function * (next) {
     var requestRawBody = JSON.stringify(this.request.body);
     var cert_url = _.get(this, 'request.header.signaturecertchainurl');
     var signature = _.get(this, 'request.header.signature');
+
+    console.log('TEST:', cert_url, signature, requestRawBody);
     yield alexaVerifier(cert_url, signature, requestRawBody);
     yield next;
   } catch (e) {
