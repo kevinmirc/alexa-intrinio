@@ -5,7 +5,7 @@ var logger = require('koa-logger');
 var router = require('koa-route');
 var _ = require('lodash');
 var verifier = require('alexa-verifier')
-var { promisify } = require('util');
+var promisify = require("promisify-node");
 
 var alexa = require('./services/alexa');
 var alexaCtrl = require('./controllers/alexaController');
