@@ -29,7 +29,7 @@ app.use(function * (next) {
     var cert_url = _.get(this, 'request.header.signaturecertchainurl');
     var signature = _.get(this, 'request.header.signature');
     var requestRawBody = JSON.stringify(this.request.body);
-    // yield alexaVerifier(cert_url, signature, requestRawBody);
+    yield alexaVerifier(cert_url, signature, requestRawBody);
     yield next;
   } catch (e) {
     console.log('Failed Alexa Verification', e);
