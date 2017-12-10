@@ -21,15 +21,12 @@ var handleIntent = function * (intent) {
         dataPointRes = JSON.parse(dataPointRes);
         return alexa.buildResponseBodyFromIntrinioDataPoint(dataPointRes.value, intrinioDataPoint);
       } else {
-        this.statusCode = 404;
         return alexa.buildResponseBody(`Could not find ${requestedDataPoint} for ${requestedCompanyName}`, true);
       }
     } else {
-      this.statusCode = 404;
       return alexa.buildResponseBody(`Could not find a company with the name ` + requestedCompanyName, true);
     }
   } else {
-    this.statusCode = 400;
     return alexa.buildResponseBody(alexa.helpResponse, true);
   }
 };

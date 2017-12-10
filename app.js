@@ -4,20 +4,36 @@ var bodyParser = require('koa-bodyparser');
 var logger = require('koa-logger');
 var router = require('koa-route');
 var _ = require('lodash');
+var verifier = require('alexa-verifier')
+var { promisify } = require('util');
 
 var alexa = require('./services/alexa');
 var alexaCtrl = require('./controllers/alexaController');
 
 var app = koa();
 var port = process.env.PORT || 3000;
+var alexaVerifier = promisify(verifier);
 
-app.use(bodyParser());
 app.use(logger());
+app.use(bodyParser());
+
+app.use(function * (next) {
+  try {
+    var requestRawBody = JSON.stringify(this.request.body);
+    var cert_url = _.get(this, 'request.headers.signaturecertchainurl');
+    var signature = _.get(this, 'request.headers.signature');
+    yield alexaVerifier(cert_url, signature, requestRawBody);
+    yield next;
+  } catch (e) {
+    this.status = 400;
+    return;
+  }
+});
 
 app.use(function *(next) {
   var time = new Date().getTime();
   var date = new Date(time);
-  console.log(date.toString(), '\n\t',this.request.body);
+  console.log(date.toString(), '\n\t', this.request.body);
   yield next;
 });
 
@@ -25,8 +41,7 @@ app.use(router.post('/', function *(next) {
   var appId = _.get(this, 'request.body.session.application.applicationId');
 
   if (appId !== process.env.AMAZONAPPID) {
-    this.statusCode = 403;
-    this.body = 'Not Authorized';
+    this.status = 401;
     return;
   }
 

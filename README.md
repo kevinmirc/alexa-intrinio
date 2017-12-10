@@ -105,4 +105,4 @@ POST to http://localhost:3000/ with this body:
 
 ## Alexa Configuration
 Keywords:
-- Finance, Data, Financial, Stock, Money, Mitch, Trading, Fintech, Intrinio, Financial, Market, Information, Datasets, Value
+- Finance, Data, Financial, Stock, Market, Trading, Fintech, Intrinio, Information, Datasets, Value
