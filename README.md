@@ -1,9 +1,8 @@
 # Alexa-Intrinio
 **An Amazon Alexa Intrinio Skill**
 
-This is an API for the Intrinio Amazon Alexa skill.
-(add link to skill here)
-Status: `Failed Amazon Certification`, see [certification.md](./certification.md)
+This is an API for the unofficial Intrinio Amazon Alexa skill: [Market Savvy](https://www.amazon.com/Kevin-Mircovich-Apps-Market-Savvy/dp/B01N4OW2Z4)
+Status: Published
 
 
 ## Demo
@@ -99,12 +98,6 @@ POST to http://localhost:3000/ with this body:
 ```
 
 ## TODO
-- [pass certification](./certification.md)
 - add a db to store every request, intent, and if it was successfully responded to (for reporting and improving the service).
 - create unit tests for each service
 - create end-to-end tests
-- refactor intrinioDataPoints to be a class with instance methods
-
-## Alexa Configuration
-Keywords:
-- Finance, Data, Financial, Stock, Market, Trading, Fintech, Intrinio, Information, Datasets, Value
