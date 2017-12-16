@@ -2,6 +2,7 @@
 **An Amazon Alexa Intrinio Skill**
 
 This is an API for the unofficial Intrinio Amazon Alexa skill: [Market Savvy](https://www.amazon.com/Kevin-Mircovich-Apps-Market-Savvy/dp/B01N4OW2Z4)
+
 Status: Published
 
 
