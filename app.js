@@ -18,10 +18,10 @@ app.use(function *(next) {
   var time = new Date().getTime();
   var date = new Date(time);
   console.info('--->', this.method, this.url, date.toString());
-  console.info('REQUEST BODY:\n', this.request.body, '\n');
+  // console.info('REQUEST BODY:\n', this.request.body, '\n');
   yield next;
   console.info();
-  console.info('RESPONSE BODY:\n', _.get(this, 'body'), '\n');
+  // console.info('RESPONSE BODY:\n', _.get(this, 'body'), '\n');
   console.info('<---', this.status);
 });
 
