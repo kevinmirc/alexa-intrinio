@@ -67,10 +67,5 @@ app.use(router.post('/', function *(next) {
   yield next;
 }));
 
-app.use(function *(next) {
-  yield next;
-  console.log(this.body);
-});
-
 app.listen(port);
 console.log('Using port', port);
