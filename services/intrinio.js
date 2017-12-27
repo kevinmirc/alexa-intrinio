@@ -17,9 +17,11 @@ var uri = `https://api.intrinio.com`;
 
 module.exports = {
   getDataPoint: function (identifier, dataPoint) {
+    console.info(`DataPoint: ${dataPoint}, Identifier: ${identifier}\n`);
     return rp.get(`${uri}/data_point?identifier=${identifier}&item=${dataPoint}`, opts);
   },
   queryCompany: function (query) {
+    console.info(`\nCompany Query:${query}`);
     return rp.get(`${uri}/companies?query=${query}`, opts);
   }
 };
