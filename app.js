@@ -21,7 +21,7 @@ app.use(function *(next) {
   // console.info('REQUEST BODY:\n', this.request.body, '\n');
   yield next;
   console.info();
-  // console.info('RESPONSE BODY:\n', _.get(this, 'body'), '\n');
+  console.info('RESPONSE BODY:\n', _.get(this, 'body'), '\n');
   console.info('<---', this.status);
 });
 
