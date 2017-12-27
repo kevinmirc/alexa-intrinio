@@ -1,7 +1,6 @@
 /* jshint esversion: 6 */
 var koa = require('koa');
 var bodyParser = require('koa-bodyparser');
-var logger = require('koa-logger');
 var router = require('koa-route');
 var _ = require('lodash');
 var verifier = require('alexa-verifier')
@@ -14,14 +13,16 @@ var app = koa();
 var port = process.env.PORT || 3000;
 var alexaVerifier = promisify(verifier);
 
-app.use(logger());
 app.use(bodyParser());
-
 app.use(function *(next) {
   var time = new Date().getTime();
   var date = new Date(time);
-  console.log(date.toString(), '\n\t', this.request);
+  console.info('--->', this.method, this.url, date.toString());
+  console.info('REQUEST BODY:\n', this.request.body, '\n');
   yield next;
+  console.info();
+  console.info('RESPONSE BODY:\n', _.get(this, 'body'), '\n');
+  console.info('<---', this.status);
 });
 
 app.use(function * (next) {
